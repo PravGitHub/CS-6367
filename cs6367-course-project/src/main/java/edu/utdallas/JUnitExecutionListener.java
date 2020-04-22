@@ -13,21 +13,25 @@ import java.util.Map;
 public class JUnitExecutionListener extends RunListener {
 
 	private ControlFlowCoverage coverage;
+	private DataCoverage dcoverage;
 	
 	//begin running the test suite
     public void testRunStarted(Description description) throws Exception {
     	//initalizes coverage the first string would contain test class and test method,    	
     	coverage = new ControlFlowCoverage();
+    	dcoverage = new DataCoverage();
     }
     //finish running the test suite
     public void testRunFinished(Result result) throws Exception {
     	coverage.print();
+    	dcoverage.print();
     }
 
     //begin running a test
     public void testStarted(Description description) throws Exception {
     	coverage.newTest();
     	coverage.addTestMethod(description.getClassName(), description.getMethodName());
+    	
     }
 
     public void testFinished(Description description) throws Exception {

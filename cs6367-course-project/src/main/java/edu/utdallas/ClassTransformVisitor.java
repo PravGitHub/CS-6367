@@ -2,6 +2,7 @@ package edu.utdallas;
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
+import org.objectweb.asm.Type;
 
 class ClassTransformVisitor extends ClassVisitor implements Opcodes {
 	
@@ -16,7 +17,7 @@ class ClassTransformVisitor extends ClassVisitor implements Opcodes {
     public MethodVisitor visitMethod(final int access, final String name,
             final String desc, final String signature, final String[] exceptions) {
         MethodVisitor mv = cv.visitMethod(access, name, desc, signature, exceptions);
-        return mv == null ? null : new MethodTransformVisitor(mv, name, classname);
+        return mv == null ? null : new MethodTransformVisitor(mv, name, classname,signature, access,Type.getMethodType(desc).getArgumentTypes());
     }
     
     //added the visit method just so we can get the classname
