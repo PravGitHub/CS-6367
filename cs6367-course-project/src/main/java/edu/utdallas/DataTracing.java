@@ -49,21 +49,22 @@ public class DataTracing {
 	
 	public void print() {
 		
-		FileWriter fout;
+		FileWriter fout,fout1;
 		String tmp=null;
 		String res[]=null;
     	try {
     		//creates or overwrites a txt file
     		fout = new FileWriter("datatrace.txt");  
-    		
+    		fout1 = new FileWriter("invariants.txt");
     		for(Map.Entry<String, HashMap<String, HashMap<String, HashSet<Object>>>> element : classMethods.entrySet()) {
     			for(Map.Entry<String, HashMap<String, HashSet<Object>>> entry : element.getValue().entrySet()) {
     				String line = element.getKey() + ":-->\n";
     				fout.write(line);
+    				fout1.write(line);
     				for(Map.Entry<String, HashSet<Object>> subentry : entry.getValue().entrySet()) {
     					
     					tmp = subentry.toString();
-    					//fout.write("\n"+tmp);
+    					fout.write("\n"+tmp);
     					
     					res = tmp.split("=");
     					
@@ -91,10 +92,10 @@ public class DataTracing {
 							}
 							
 							if(flag) {
-								fout.write("\n"+var[0]+" "+var[1]+" = "+t+"\t\t---> Constant Invariant");
+								fout1.write("\n"+var[0]+" "+var[1]+" = "+t+"\t\t---> Constant Invariant");
 							}
 							else {
-								fout.write("\n"+var[0]+" "+min+" <= "+var[1]+" <= "+max+"\t\t---> Range Invariant");
+								fout1.write("\n"+var[0]+" "+min+" <= "+var[1]+" <= "+max+"\t\t---> Range Invariant");
 							}
 						
 						}
@@ -110,7 +111,7 @@ public class DataTracing {
 							}
 							
 							if(flag) {
-								fout.write("\n"+var[0]+" "+var[1]+" = "+t+"\t\t---> Constant Invariant");
+								fout1.write("\n"+var[0]+" "+var[1]+" = "+t+"\t\t---> Constant Invariant");
 							}
 							
 						}    					
@@ -118,11 +119,11 @@ public class DataTracing {
         				
     				}
     				fout.write("\n\n----------\n ");
-    				
+    				fout1.write("\n\n----------\n ");
     			}
     		}
     		fout.close();
-    		
+    		fout1.close();
     	} catch(IOException ex) {
     		ex.getStackTrace();
     	}
