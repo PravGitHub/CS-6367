@@ -1,810 +1,1307 @@
-org/apache/commons/dbutils/BeanProcessor.newInstance:-->
+com/github/maven_nar/cpptasks/CUtil$StringArrayBuilder.CUtil$StringArrayBuilder:-->
 
-Class c = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+String value=[mylib1.lib, bart,cart,dart, kernel32, libmylib1, mylib1.1, badlibname, cpptasks15383078797656303557, cart, advapi32, bart, cpptasks6841789969986407098, dart, cpptasks4277000984663400290, li, cpptasks5183386128417264934]
 
 ----------
- org/apache/commons/dbutils/OutParameter.setValue:-->
+ com/github/maven_nar/cpptasks/gcc/GccLinker.getLinker:-->
 
+LinkType type=[com.github.maven_nar.cpptasks.compiler.LinkType@60b4beb4, com.github.maven_nar.cpptasks.compiler.LinkType@206a70ef, com.github.maven_nar.cpptasks.compiler.LinkType@409c54f, com.github.maven_nar.cpptasks.compiler.LinkType@57ad2aa7, com.github.maven_nar.cpptasks.compiler.LinkType@68f1b17f, com.github.maven_nar.cpptasks.compiler.LinkType@3e2059ae, com.github.maven_nar.cpptasks.compiler.LinkType@6c372fe6, com.github.maven_nar.cpptasks.compiler.LinkType@44a664f2, com.github.maven_nar.cpptasks.compiler.LinkType@14fa86ae, com.github.maven_nar.cpptasks.compiler.LinkType@1b8a29df, com.github.maven_nar.cpptasks.compiler.LinkType@77e9807f, com.github.maven_nar.cpptasks.compiler.LinkType@524d6d96, com.github.maven_nar.cpptasks.compiler.LinkType@609db546, com.github.maven_nar.cpptasks.compiler.LinkType@82ea68c, com.github.maven_nar.cpptasks.compiler.LinkType@63611043, com.github.maven_nar.cpptasks.compiler.LinkType@42530531, com.github.maven_nar.cpptasks.compiler.LinkType@1a38c59b, com.github.maven_nar.cpptasks.compiler.LinkType@8317c52, com.github.maven_nar.cpptasks.compiler.LinkType@7cb502c, com.github.maven_nar.cpptasks.compiler.LinkType@50caa560, com.github.maven_nar.cpptasks.compiler.LinkType@2f4948e4, com.github.maven_nar.cpptasks.compiler.LinkType@1649b0e6, com.github.maven_nar.cpptasks.compiler.LinkType@4ebff610, com.github.maven_nar.cpptasks.compiler.LinkType@36d585c, com.github.maven_nar.cpptasks.compiler.LinkType@4d826d77, com.github.maven_nar.cpptasks.compiler.LinkType@2a3888c1]
 
 ----------
- org/apache/commons/dbutils/OutParameter.setValue:-->
+ com/github/maven_nar/NarLayout21.getIncludeDirectory:-->
 
-int 1 <= index <= 3		---> Range Invariant
+String artifactId=[artifactId]
+File baseDir=[\Users\maven]
+String version=[version]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.rethrow:-->
+ com/github/maven_nar/cpptasks/LinkerDef.addActiveUserLibrarySets:-->
 
-String sql = select * from blah where ?		---> Constant Invariant
+Project project=[org.apache.tools.ant.Project@157853da, org.apache.tools.ant.Project@35645047, org.apache.tools.ant.Project@73302995, org.apache.tools.ant.Project@3972a855, org.apache.tools.ant.Project@2f54a33d, org.apache.tools.ant.Project@4ef37659, org.apache.tools.ant.Project@3af0a9da, org.apache.tools.ant.Project@20c0a64d, org.apache.tools.ant.Project@436c81a3, org.apache.tools.ant.Project@95e33cc, org.apache.tools.ant.Project@258d79be, org.apache.tools.ant.Project@557caf28, org.apache.tools.ant.Project@6f27a732, org.apache.tools.ant.Project@225129c, org.apache.tools.ant.Project@385c9627, org.apache.tools.ant.Project@671a5887]
+Vector libsets=[[LibrarySet], [], [LibrarySet], [LibrarySet]]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/BooleanColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/compiler/AbstractLinker.createConfiguration:-->
 
+ProcessorDef[] baseConfigs=[[Lcom.github.maven_nar.cpptasks.ProcessorDef;@20f5281c, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@60410cd, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@3e74829, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@7fcf2fc1, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@2a266d09, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@865dd6, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@76f2bbc1, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@10683d9d, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@20ca951f, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@5a3bc7ed, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@59e505b2, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@152aa092, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@87a85e1, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@292b08d6, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@3943a2be, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@768fc0f2]
+VersionInfo versionInfo=[null]
+LinkType linkType=[com.github.maven_nar.cpptasks.compiler.LinkType@60b4beb4, com.github.maven_nar.cpptasks.compiler.LinkType@82ea68c, com.github.maven_nar.cpptasks.compiler.LinkType@63611043, com.github.maven_nar.cpptasks.compiler.LinkType@42530531, com.github.maven_nar.cpptasks.compiler.LinkType@8317c52, com.github.maven_nar.cpptasks.compiler.LinkType@206a70ef, com.github.maven_nar.cpptasks.compiler.LinkType@409c54f, com.github.maven_nar.cpptasks.compiler.LinkType@71329995, com.github.maven_nar.cpptasks.compiler.LinkType@50caa560, com.github.maven_nar.cpptasks.compiler.LinkType@2f4948e4, com.github.maven_nar.cpptasks.compiler.LinkType@1649b0e6, com.github.maven_nar.cpptasks.compiler.LinkType@4ebff610, com.github.maven_nar.cpptasks.compiler.LinkType@36d585c, com.github.maven_nar.cpptasks.compiler.LinkType@524d6d96, com.github.maven_nar.cpptasks.compiler.LinkType@609db546, com.github.maven_nar.cpptasks.compiler.LinkType@28975c28]
+CCTask task=[com.github.maven_nar.cpptasks.CCTask@1115ec15, com.github.maven_nar.cpptasks.CCTask@78ffe6dc, com.github.maven_nar.cpptasks.CCTask@c730b35, com.github.maven_nar.cpptasks.CCTask@5965be2d, com.github.maven_nar.cpptasks.CCTask@41005828, com.github.maven_nar.cpptasks.CCTask@568ff82, com.github.maven_nar.cpptasks.CCTask@119cbf96, com.github.maven_nar.cpptasks.CCTask@69fb6037, com.github.maven_nar.cpptasks.CCTask@4241e0f4, com.github.maven_nar.cpptasks.CCTask@ba54932, com.github.maven_nar.cpptasks.CCTask@7daa0fbd, com.github.maven_nar.cpptasks.CCTask@6a78afa0, com.github.maven_nar.cpptasks.CCTask@6a6afff2, com.github.maven_nar.cpptasks.CCTask@5b67bb7e, com.github.maven_nar.cpptasks.CCTask@45a37759, com.github.maven_nar.cpptasks.CCTask@2525ff7e]
+ProcessorDef specificConfig=[LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef]
+TargetDef targetPlatform=[null]
 
 ----------
- org/apache/commons/dbutils/handlers/ScalarHandler.ScalarHandler:-->
+ com/github/maven_nar/cpptasks/compiler/CommandLineCompiler.getOutputFileNames:-->
 
-String columnName = null		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+String inputFile=[hello.c, c:/foo/bar/hello.c, c:/foo/bar/hello.h, c:/foo/bar/fake/../hello.c, c:/foo\bar\hello.c, c:/foo/bar/fake/../hello.h, fake/../hello.c]
+VersionInfo versionInfo=[null]
 
 ----------
- org/apache/commons/dbutils/DbUtils.rollback:-->
+ com/github/maven_nar/cpptasks/intel/IntelLinux32CLinker.IntelLinux32CLinker:-->
 
+String outputSuffix=[, .so]
+bool isLibtool=[false, true]
+String outputPrefix=[, lib]
+IntelLinux32CLinker libtoolLinker=[null, icc]
 
 ----------
- org/apache/commons/dbutils/ProxyFactory.createResultSetMetaData:-->
+ com/github/maven_nar/cpptasks/compiler/CommandLineCompiler.buildDefineArguments:-->
 
-InvocationHandler handler = org.apache.commons.dbutils.MockResultSetMetaData@10cd6753		---> Constant Invariant
+Vector args=[[-c, -fno-exceptions, -Dfoo=bar], [-c, -fno-exceptions, -IE:\tmp], [-c, -fno-exceptions], [/c, /nologo, /EHsc, /DNDEBUG, /MD, /GR-, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [-c, -g, -fno-exceptions], [/base, -c, -fno-exceptions]]
+CompilerDef[] defs=[[Lcom.github.maven_nar.cpptasks.CompilerDef;@6aa61224, [Lcom.github.maven_nar.cpptasks.CompilerDef;@7e7be63f, [Lcom.github.maven_nar.cpptasks.CompilerDef;@49912c99, [Lcom.github.maven_nar.cpptasks.CompilerDef;@6853425f, [Lcom.github.maven_nar.cpptasks.CompilerDef;@5b7a8434, [Lcom.github.maven_nar.cpptasks.CompilerDef;@5117dd67, [Lcom.github.maven_nar.cpptasks.CompilerDef;@bd4dc25, [Lcom.github.maven_nar.cpptasks.CompilerDef;@2c35e847, [Lcom.github.maven_nar.cpptasks.CompilerDef;@4032d386, [Lcom.github.maven_nar.cpptasks.CompilerDef;@78aa1f72, [Lcom.github.maven_nar.cpptasks.CompilerDef;@76c3e77a, [Lcom.github.maven_nar.cpptasks.CompilerDef;@6da21078, [Lcom.github.maven_nar.cpptasks.CompilerDef;@1fb19a0, [Lcom.github.maven_nar.cpptasks.CompilerDef;@14555e0a]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callExecuteWithResultSetWithException:-->
+ com/github/maven_nar/cpptasks/types/UndefineArgument.setUnless:-->
 
+String propName=[debug, cond]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.prepareStatement:-->
+ com/github/maven_nar/cpptasks/borland/TestBorlandCCompiler.TestBorlandCCompiler:-->
 
-int returnedKeys = 1		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+String name=[testCanParseTlb, testGetIdentfier]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.prepareStatement:-->
+ com/github/maven_nar/cpptasks/types/LibrarySet.setUnless:-->
 
-String sql = update blah set unit		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+String propName=[windows]
 
 ----------
- org/apache/commons/dbutils/BeanProcessor.populateBean:-->
+ com/github/maven_nar/cpptasks/types/ConditionalPath.setIf:-->
 
-ResultSet rs = rs		---> Constant Invariant
+String propName=[debug]
 
 ----------
- org/apache/commons/dbutils/BeanProcessor.populateBean:-->
+ com/github/maven_nar/cpptasks/ProcessorEnumValue.ProcessorEnumValue:-->
 
-ResultSet rs = rs		---> Constant Invariant
-PropertyDescriptor[] props = [Ljava.beans.PropertyDescriptor;@fab35b1		---> Constant Invariant
+String name=[aCC, os400, c++, df, bcc, ifort, ecc, cl6x, gcc, g++, g77, icc, xlC, msmc, ecl, xlC_r, brc, sparc-sun-solaris2-ld, icl, tcc, gfortran, midl, tcpp, sunf77, msvc, CC, msrc, os390batch, suncc, cl55, sparc-sun-solaris2-ar, ml64, clang++, armcc, ar, msvc8, clang, sparc-sun-solaris2-c++, os390, armcpp, sparc-sun-solaris2-gcc, sparc-sun-solaris2-g++, sparc-sun-solaris2-g77, ld, sunc89, icpc, ecpc]
+Processor processor=[icc, xlC_r compiler - unidentified version, ecc, f77, tcc, clang, bcc32, cl, GNU ld (GNU Binutils) 2.29.1.20171006, cxx, CC, Microsoft (R) Macro Assembler (x64), Microsoft (R) Windows (R) Message Compiler, xlC_r linker - unidentified version, cxx, aCC,  sparc-sun-solaris2-g77 noversion nomachine, aCC, icc, CC, Filesystem     1K-blocks      Used Available Use% Mounted on, tcpp, icc, ifort, lnk55,  clang++ 7.3.0 x86_64-pc-cygwin, ecpc,  gfortran 7.3.0 x86_64-pc-cygwin, VisualAge compiler - unidentified version,  g++ 7.3.0 x86_64-pc-cygwin, icc, VisualAge linker - unidentified version, brc32, Microsoft (R) Windows (R) Resource Compiler, DF: __bogus__.xxx: No such file or directory,  c++ 7.3.0 x86_64-pc-cygwin, ecc, cc, sparc-sun-solaris2-ld, sparc-sun-solaris2-gcc, midl, ecpc, link: missing operand after '/DLL',  g77 7.3.0 x86_64-pc-cygwin, ld: cannot find /bogus: No such file or directory, cxx, icpc,  gcc 7.3.0 x86_64-pc-cygwin, cl,  sparc-sun-solaris2-g++ noversion nomachine, icpc, armcpp, Borland Linker, armlink, ecl, clang,  sparc-sun-solaris2-gcc noversion nomachine,  clang 7.3.0 x86_64-pc-cygwin, 7.3.0, c89, armcc, 7.4.0, GNU ar (GNU Binutils) 2.29.1.20171006, xilink, cl55, icl, cl6x, lnk6x, sparc-sun-solaris2-ar, sparc-sun-solaris2-gcc,  sparc-sun-solaris2-c++ noversion nomachine]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callExecuteWithException:-->
+ com/github/maven_nar/cpptasks/MockBuildListener.messageLogged:-->
 
+BuildEvent event=[org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@66498326], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@67d18ed7], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@be35cd9], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@be35cd9], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@7582ff54], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@59af0466], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@7582ff54], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@1869fbd2], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@7582ff54], org.apache.tools.ant.BuildEvent[source=org.apache.tools.ant.Project@be35cd9]]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callGoodExecuteWithResultSet:-->
+ com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/LdLinker.LdLinker:-->
 
-Connection intParam = conn		---> Constant Invariant
+String outputSuffix=[, .so]
+String[] extensions=[[Ljava.lang.String;@757277dc]
+bool isLibtool=[false, true]
+String outputPrefix=[, lib]
+String[] ignoredExtensions=[[Ljava.lang.String;@687e99d8]
+LdLinker libtoolLinker=[null, sparc-sun-solaris2-ld]
+String command=[sparc-sun-solaris2-ld]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/FloatColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/intel/IntelWin32Linker.IntelWin32Linker:-->
 
+String outputSuffix=[.dll, .exe]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$10.AsyncQueryRunner$10:-->
+ com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.addDebugSwitch:-->
 
+Vector args=[[/Zi, /Od, /RTC1, /D_DEBUG, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/Zi, /Od, /RTC1, /D_DEBUG, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/Zi, /Od, /RTC1, /D_DEBUG, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/Zi, /Od, /RTC1, /D_DEBUG, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\]]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/LongColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/gcc/GccCCompiler.GccCCompiler:-->
 
+GccCCompiler libtoolCompiler=[null, libtool clang 7.3.0 x86_64-pc-cygwin, libtool c++ 7.3.0 x86_64-pc-cygwin, libtool gfortran 7.3.0 x86_64-pc-cygwin, libtool gcc 7.3.0 x86_64-pc-cygwin, libtool g77 7.3.0 x86_64-pc-cygwin, libtool g++ 7.3.0 x86_64-pc-cygwin, libtool clang++ 7.3.0 x86_64-pc-cygwin]
+Environment env=[null]
+String[] sourceExtensions=[[Ljava.lang.String;@42eca56e]
+bool isLibtool=[false, true]
+bool newEnvironment=[false]
+String[] headerExtensions=[[Ljava.lang.String;@52f759d7]
+String command=[c++, clang, g77, gfortran, g++, gcc, clang++]
 
 ----------
- org/apache/commons/dbutils/DbUtils$DriverProxy.DbUtils$DriverProxy:-->
+ com/github/maven_nar/cpptasks/intel/IntelWin64CCompiler.IntelWin64CCompiler:-->
 
+Environment env=[null]
+bool newEnvironment=[false]
 
 ----------
- org/apache/commons/dbutils/BeanProcessor.BeanProcessor:-->
+ com/github/maven_nar/cpptasks/LinkerDef.setIncremental:-->
 
-Map columnToPropertyOverrides = {}		---> Constant Invariant
+bool incremental=[true]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.fillStatementWithBean:-->
+ com/github/maven_nar/cpptasks/parser/LetterState.consume:-->
 
-Object bean = org.apache.commons.dbutils.QueryRunnerTest$MyBean@4116f66a		---> Constant Invariant
-PreparedStatement stmt = prepStmt		---> Constant Invariant
-PropertyDescriptor[] propertyNames = [Ljava.beans.PropertyDescriptor;@91f565d		---> Constant Invariant
+char ch=[ , B, c, C, d, e, E, J, l, m, n, o, O, p, r, t, u, _]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.fillStatementWithBean:-->
+ com/github/maven_nar/cpptasks/DependencyTable.DependencyTable:-->
 
-PreparedStatement stmt = prepStmt		---> Constant Invariant
+File baseDir=[C:\Users\praveen\AppData\Local\Temp]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/IntegerColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/CompilerDef.addConfiguredCompilerArg:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+CompilerArgument arg=[com.github.maven_nar.cpptasks.types.CompilerArgument@11f0a5a1, com.github.maven_nar.cpptasks.types.CompilerArgument@3f6b0be5]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/StringColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.MsvcResourceCompiler:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+Environment env=[null]
+bool newEnvironment=[false]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$2.AsyncQueryRunner$2:-->
+ com/github/maven_nar/cpptasks/types/UndefineArgument.setIf:-->
 
+String propName=[debug, cond]
 
 ----------
- org/apache/commons/dbutils/BeanProcessor.propertyDescriptors:-->
+ com/github/maven_nar/NarUtil.getOS:-->
 
-Class c = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+String defaultOs=[null]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$6.AsyncQueryRunner$6:-->
+ com/github/maven_nar/cpptasks/trolltech/MetaObjectParser$FinalTState.MetaObjectParser$FinalTState:-->
 
+MetaObjectParser parser=[com.github.maven_nar.cpptasks.trolltech.MetaObjectParser@1fb669c3, com.github.maven_nar.cpptasks.trolltech.MetaObjectParser@5be46f9d]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$7.AsyncQueryRunner$7:-->
+ com/github/maven_nar/cpptasks/LinkerDef.setEntry:-->
 
-String this = update blah set unit		---> Constant Invariant
-Connection this = conn		---> Constant Invariant
+String entry=[foo]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$3.AsyncQueryRunner$3:-->
+ com/github/maven_nar/cpptasks/hp/aCCLinker.aCCLinker:-->
 
-String this = select * from blah where ?		---> Constant Invariant
-Connection this = conn		---> Constant Invariant
+String outputSuffix=[, .a, .sl]
+String[] extensions=[[Ljava.lang.String;@20d525]
+String outputPrefix=[, lib]
+String[] ignoredExtensions=[[Ljava.lang.String;@6200f9cb]
+String command=[aCC]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/TimestampColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/sun/TestForteCCCompiler.TestForteCCCompiler:-->
 
+String name=[testBidAssembly, testBidPreprocessed, testWarningLevel3, testBidC, testWarningLevel2, testWarningLevel5, testWarningLevel4, testWarningLevel1, testWarningLevel0, testBidCpp, testBidCpp2, testBidCpp3, testBidCpp4, testBidCpp5]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/SQLXMLColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/TestTargetInfo$DummyConfiguration.TestTargetInfo$DummyConfiguration:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+TestTargetInfo x0=[testGetRebuild(com.github.maven_nar.cpptasks.TestTargetInfo), testHasSameSource(com.github.maven_nar.cpptasks.TestTargetInfo), testGetSource(com.github.maven_nar.cpptasks.TestTargetInfo), testConstructorNullOutput(com.github.maven_nar.cpptasks.TestTargetInfo), testConstructorNullSource(com.github.maven_nar.cpptasks.TestTargetInfo), testMustRebuild(com.github.maven_nar.cpptasks.TestTargetInfo), testGetRebuild(com.github.maven_nar.cpptasks.TestTargetInfo), testHasSameSource(com.github.maven_nar.cpptasks.TestTargetInfo), testConstructorNullSource(com.github.maven_nar.cpptasks.TestTargetInfo), testConstructorNullOutput(com.github.maven_nar.cpptasks.TestTargetInfo), testMustRebuild(com.github.maven_nar.cpptasks.TestTargetInfo), testGetSource(com.github.maven_nar.cpptasks.TestTargetInfo)]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.QueryRunner:-->
+ com/github/maven_nar/cpptasks/TestTargetInfo$DummyConfiguration.TestTargetInfo$DummyConfiguration:-->
 
+TestTargetInfo x0=[testGetRebuild(com.github.maven_nar.cpptasks.TestTargetInfo), testHasSameSource(com.github.maven_nar.cpptasks.TestTargetInfo), testGetSource(com.github.maven_nar.cpptasks.TestTargetInfo), testConstructorNullOutput(com.github.maven_nar.cpptasks.TestTargetInfo), testConstructorNullSource(com.github.maven_nar.cpptasks.TestTargetInfo), testMustRebuild(com.github.maven_nar.cpptasks.TestTargetInfo), testGetRebuild(com.github.maven_nar.cpptasks.TestTargetInfo), testHasSameSource(com.github.maven_nar.cpptasks.TestTargetInfo), testConstructorNullSource(com.github.maven_nar.cpptasks.TestTargetInfo), testConstructorNullOutput(com.github.maven_nar.cpptasks.TestTargetInfo), testMustRebuild(com.github.maven_nar.cpptasks.TestTargetInfo), testGetSource(com.github.maven_nar.cpptasks.TestTargetInfo)]
+TestTargetInfo$1 x1=[null]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.QueryRunner:-->
+ com/github/maven_nar/cpptasks/TestXMLConsumer.TestXMLConsumer:-->
 
-DataSource ds = dataSource		---> Constant Invariant
+String testName=[testLoadOpenshore, testUpdateTimeResolution, testLoadXerces]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.QueryRunner:-->
+ com/github/maven_nar/cpptasks/parser/AbstractParser.parse:-->
 
-bool ds = true		---> Constant Invariant
+Reader reader=[java.io.CharArrayReader@56528192, java.io.CharArrayReader@4659191b, java.io.CharArrayReader@5e316c74, java.io.CharArrayReader@6e9175d8, java.io.CharArrayReader@795509d9, java.io.CharArrayReader@2ea227af, java.io.CharArrayReader@5d534f5d, java.io.CharArrayReader@240237d2, java.io.CharArrayReader@4f3bbf68, java.io.CharArrayReader@f0c8a99, java.io.CharArrayReader@78047b92, java.io.CharArrayReader@6404f418, java.io.CharArrayReader@229c6181, java.io.CharArrayReader@7a4ccb53, java.io.CharArrayReader@3e8c3cb, java.io.CharArrayReader@67f639d3, java.io.CharArrayReader@37918c79, java.io.CharArrayReader@d706f19, java.io.CharArrayReader@23f7d05d, java.io.CharArrayReader@5db45159, java.io.CharArrayReader@38b27cdc, java.io.CharArrayReader@501edcf1, java.io.CharArrayReader@60d8c9b7, java.io.CharArrayReader@6646153, java.io.CharArrayReader@4034c28c, java.io.CharArrayReader@163e4e87, java.io.CharArrayReader@273e7444, java.io.CharArrayReader@593aaf41, java.io.CharArrayReader@368247b9]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.QueryRunner:-->
+ com/github/maven_nar/cpptasks/parser/WhitespaceOrCaseInsensitiveLetterState.consume:-->
 
-StatementConfiguration ds = org.apache.commons.dbutils.StatementConfiguration@6e31d989		---> Constant Invariant
+char ch=[I, i]
 
 ----------
- org/apache/commons/dbutils/OutParameter.OutParameter:-->
+ com/github/maven_nar/cpptasks/ti/ClxxCCompiler.ClxxCCompiler:-->
 
-int sqlType = 4		---> Constant Invariant
+Environment env=[null]
+bool newEnvironment=[false]
+String command=[cl6x, cl55]
 
 ----------
- org/apache/commons/dbutils/OutParameter.OutParameter:-->
+ com/github/maven_nar/cpptasks/MockFileCollector.getFileName:-->
 
-int 4 <= sqlType <= 12		---> Range Invariant
+int index=[0]
 
 ----------
- org/apache/commons/dbutils/StatementConfiguration$Builder.fetchDirection:-->
+ com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.MsvcCompatibleCCompiler:-->
 
-Integer fetchDirection = 1		---> Constant Invariant
+Environment env=[null]
+bool newEnvironment=[false]
+String identifierArg=[-help, /bogus]
+String command=[icl, cl, ecl]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.AbstractQueryRunner:-->
+ com/github/maven_nar/cpptasks/intel/IntelLinux32CCompiler.IntelLinux32CCompiler:-->
 
+IntelLinux32CCompiler libtoolCompiler=[null, icc]
+Environment env=[null]
+bool isLibtool=[false, true]
+bool newEnvironment=[false]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.AbstractQueryRunner:-->
+ com/github/maven_nar/cpptasks/TestDependencyTable.TestDependencyTable:-->
 
-DataSource stmtConfig = dataSource		---> Constant Invariant
+String testName=[testLoadOpenshore, testLoadXerces]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.AbstractQueryRunner:-->
+ com/github/maven_nar/NarLayout21.getBinDirectory:-->
 
-bool stmtConfig = true		---> Constant Invariant
+String artifactId=[artifactId]
+File baseDir=[\Users\maven]
+String aol=[x86_64-MacOSX-g++]
+String version=[version]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.AbstractQueryRunner:-->
+ com/github/maven_nar/cpptasks/types/TestLibrarySet.testVisitFiles:-->
 
-StatementConfiguration stmtConfig = org.apache.commons.dbutils.StatementConfiguration@6e31d989		---> Constant Invariant
+Linker linker=[link: missing operand after '/DLL', lib]
+int expected=[0, 1]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/FloatColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/compiler/TestAbstractProcessor$DummyAbstractProcessor.TestAbstractProcessor$DummyAbstractProcessor:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+TestAbstractProcessor this=[testGetIdentfier(com.github.maven_nar.cpptasks.compiler.TestAbstractProcessor), testGetIdentfier(com.github.maven_nar.cpptasks.compiler.TestAbstractProcessor)]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callGoodQuery:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.getRebuild:-->
 
-Connection sql = conn		---> Constant Invariant
+ProcessorDef[] defaultProviders=[[Lcom.github.maven_nar.cpptasks.ProcessorDef;@6d026701, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@53251a66, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@b978d10, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@60410cd, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@5e403b4a, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@3e74829, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@7fcf2fc1, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@865dd6, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@20ca951f, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@5a3bc7ed, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@59e505b2, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@f736069, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@87a85e1, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@57d7f8ca, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@7a419da4, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@1a18644, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@20f5281c, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@1d483de4, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@2a266d09, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@4efc180e, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@76f2bbc1, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@10683d9d, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@7c24b813, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@152aa092, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@f99f5e0, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@5e3d57c7, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@292b08d6, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@3943a2be, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@768fc0f2, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@22e357dc]
+int index=[0, 1]
 
 ----------
- org/apache/commons/dbutils/BasicRowProcessor.BasicRowProcessor:-->
+ com/github/maven_nar/cpptasks/sun/ForteCCCompiler.ForteCCCompiler:-->
 
-BeanProcessor convert = org.apache.commons.dbutils.BeanProcessor@4f4c789f		---> Constant Invariant
+String[] sourceExtensions=[[Ljava.lang.String;@363ee3a2]
+String[] headerExtensions=[[Ljava.lang.String;@4690b489]
+String command=[CC]
 
 ----------
- org/apache/commons/dbutils/handlers/ScalarHandler.handle:-->
+ com/github/maven_nar/cpptasks/compiler/CommandLineFortranCompiler.CommandLineFortranCompiler:-->
 
+Environment env=[null]
+bool libtool=[false]
+String outputSuffix=[.obj]
+String[] sourceExtensions=[[Ljava.lang.String;@67a20f67]
+CommandLineFortranCompiler libtoolCompiler=[null]
+bool newEnvironment=[false]
+String identifierArg=[null]
+String[] headerExtensions=[[Ljava.lang.String;@57c758ac]
+String command=[DF]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/DoubleColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/intel/IntelLinux32Linker.IntelLinux32Linker:-->
 
+String outputSuffix=[, .so]
+IntelLinux32Linker libtoolLinker=[null, icpc]
+bool isLibtool=[false, true]
+String outputPrefix=[, lib]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/BooleanColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/parser/TestCParser.TestCParser:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+String name=[testLeadingSpace, testNotFirstWhitespace, testIncompleteImmediateIncludeQuote, testImmediateImportBracket, testImmediateIncludeQuote, testLeadingTab, testIncompleteImmediateImportQuote, testIncompleteImmediateIncludeBracket, testNoQuoteOrBracket, testIncompleteImmediateImportBracket, testImmediateImportQuote, testImmediateIncludeBracket]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.update:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.setRebuild:-->
 
+bool rebuild=[true]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.update:-->
+ com/github/maven_nar/NarLayout21.getAolDirectory:-->
 
-String closeConn = update blah set unit		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+String artifactId=[artifactId]
+File baseDir=[\Users\maven]
+String type=[shared, executable]
+String aol=[x86_64-MacOSX-g++]
+String version=[version]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.update:-->
+ com/github/maven_nar/cpptasks/types/DefineSet.addDefine:-->
 
-String conn = select * from blah where ?		---> Constant Invariant
+DefineArgument arg=[com.github.maven_nar.cpptasks.types.DefineArgument@67b9b51a, com.github.maven_nar.cpptasks.types.DefineArgument@11bb571c, com.github.maven_nar.cpptasks.types.DefineArgument@2accdbb5, com.github.maven_nar.cpptasks.types.DefineArgument@7c51f34b, com.github.maven_nar.cpptasks.types.DefineArgument@31e5415e, com.github.maven_nar.cpptasks.types.DefineArgument@b62d79]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.update:-->
+ com/github/maven_nar/cpptasks/types/DefineArgument.setValue:-->
 
-String closeConn = update blah set ?		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+String value=[bar]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.update:-->
+ com/github/maven_nar/cpptasks/compiler/CommandLineCompiler.CommandLineCompiler:-->
 
-String sql = update blah set unit		---> Constant Invariant
+Environment env=[null]
+bool libtool=[false, true]
+String outputSuffix=[.o, .res, .moc, .fo, .tlb, .obj, .rc]
+String[] sourceExtensions=[[Ljava.lang.String;@70e8f8e, [Ljava.lang.String;@42eca56e, [Ljava.lang.String;@67a20f67, [Ljava.lang.String;@61df66b6, [Ljava.lang.String;@5a63f509, [Ljava.lang.String;@6a28ffa4, [Ljava.lang.String;@ed9d034, [Ljava.lang.String;@35083305, [Ljava.lang.String;@55a1c291, [Ljava.lang.String;@28eaa59a, [Ljava.lang.String;@15bb6bea, [Ljava.lang.String;@3e92efc3, [Ljava.lang.String;@64cd705f, [Ljava.lang.String;@c267ef4, [Ljava.lang.String;@619713e5, [Ljava.lang.String;@3d74bf60, [Ljava.lang.String;@3c407114, [Ljava.lang.String;@1cbbffcd, [Ljava.lang.String;@39529185, [Ljava.lang.String;@19c65cdc, [Ljava.lang.String;@363ee3a2, [Ljava.lang.String;@2357d90a, [Ljava.lang.String;@6580cfdd, [Ljava.lang.String;@4b0b0854]
+bool newEnvironment=[false]
+String identifierArg=[null, -version, -vsn, -help, c:\__bogus\__bogus.rc, /bogus, --version, -V, -h]
+String[] headerExtensions=[[Ljava.lang.String;@52f759d7, [Ljava.lang.String;@6328d34a, [Ljava.lang.String;@27ce24aa, [Ljava.lang.String;@35ef1869, [Ljava.lang.String;@8b96fde, [Ljava.lang.String;@17046283, [Ljava.lang.String;@3427b02d, [Ljava.lang.String;@57c758ac, [Ljava.lang.String;@74bf1791, [Ljava.lang.String;@9225652, [Ljava.lang.String;@7e0b85f9, [Ljava.lang.String;@19bb07ed, [Ljava.lang.String;@6121c9d6, [Ljava.lang.String;@30ee2816, [Ljava.lang.String;@708f5957, [Ljava.lang.String;@50eac852, [Ljava.lang.String;@4690b489, [Ljava.lang.String;@1622f1b, [Ljava.lang.String;@4f209819, [Ljava.lang.String;@6e4784bc, [Ljava.lang.String;@48ae9b55, [Ljava.lang.String;@8e0379d, [Ljava.lang.String;@2145433b, [Ljava.lang.String;@72f926e6]
+CommandLineCompiler libtoolCompiler=[null, libtool clang 7.3.0 x86_64-pc-cygwin, libtool c++ 7.3.0 x86_64-pc-cygwin, libtool sparc-sun-solaris2-gcc noversion nomachine, ecc, icc, icpc, libtool g77 7.3.0 x86_64-pc-cygwin, libtool g++ 7.3.0 x86_64-pc-cygwin, libtool sparc-sun-solaris2-g++ noversion nomachine, ecpc, libtool gfortran 7.3.0 x86_64-pc-cygwin, libtool sparc-sun-solaris2-c++ noversion nomachine, libtool gcc 7.3.0 x86_64-pc-cygwin, libtool clang++ 7.3.0 x86_64-pc-cygwin, libtool sparc-sun-solaris2-g77 noversion nomachine, ifort]
+String command=[aCC, moc, c++, DF, ifort, ecc, cl6x, g77, g++, gcc, f77, icc, xlC, ecl, xlC_r, icl, tcc, gfortran, mc, midl, tcpp, CC, cc, cxx, c89, cl55, brc32, cl, ml64, clang++, armcc, rc, bcc32, clang, sparc-sun-solaris2-c++, armcpp, sparc-sun-solaris2-g77, sparc-sun-solaris2-g++, sparc-sun-solaris2-gcc, icpc, ecpc]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.update:-->
+ com/github/maven_nar/cpptasks/CCTask.getTargetsToBuildByConfiguration:-->
 
-Object closeConn = test		---> Constant Invariant
-String conn = update blah set unit		---> Constant Invariant
+Map targets=[{foo.obj=com.github.maven_nar.cpptasks.TargetInfo@49d904ec}, {foo.obj=com.github.maven_nar.cpptasks.TargetInfo@6a47b187}, {foo.obj=com.github.maven_nar.cpptasks.TargetInfo@46271dd6}, {foo.obj=com.github.maven_nar.cpptasks.TargetInfo@6f96c77}]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.update:-->
+ com/github/maven_nar/cpptasks/types/UndefineArgument.isActive:-->
 
-String closeConn = update blah set unit		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
-Object sql = test		---> Constant Invariant
+Project p=[org.apache.tools.ant.Project@13c9d689, org.apache.tools.ant.Project@31ff43be, org.apache.tools.ant.Project@70f02c32, org.apache.tools.ant.Project@28701274, org.apache.tools.ant.Project@28d18df5, org.apache.tools.ant.Project@b4711e2, org.apache.tools.ant.Project@51fadaff, org.apache.tools.ant.Project@235834f2, org.apache.tools.ant.Project@3754a4bf, org.apache.tools.ant.Project@401f7633, org.apache.tools.ant.Project@1fa1cab1, org.apache.tools.ant.Project@4afcd809, org.apache.tools.ant.Project@2a225dd7, org.apache.tools.ant.Project@5bf0d49, org.apache.tools.ant.Project@10163d6, org.apache.tools.ant.Project@2796aeae, org.apache.tools.ant.Project@5ace1ed4, org.apache.tools.ant.Project@175c2241, org.apache.tools.ant.Project@62010f5c, org.apache.tools.ant.Project@62379589]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$9.AsyncQueryRunner$9:-->
+ com/github/maven_nar/cpptasks/gcc/GccCCompiler.addImpliedArgs:-->
 
-String this = update blah set ?		---> Constant Invariant
-Connection this = conn		---> Constant Invariant
+bool multithreaded=[true]
+bool exceptions=[false]
+Boolean rtti=[null]
+Vector args=[[-c, -fno-exceptions, -Dfoo=bar], [-c, -fno-exceptions, -IE:\tmp], [-c, -fno-exceptions], [-c, -fno-exceptions, -isystemE:\tmp], [-c, -g, -fno-exceptions], [-c, -fno-exceptions, -Dfoo=bar], [-c, -fno-exceptions, -IE:\tmp], [-c, -fno-exceptions], [-c, -fno-exceptions, -isystemE:\tmp], [-c, -g, -fno-exceptions], [/base, -c, -fno-exceptions], [/base, -c, -fno-exceptions]]
+bool debug=[false, true]
+LinkType linkType=[com.github.maven_nar.cpptasks.compiler.LinkType@5fbdfdcf, com.github.maven_nar.cpptasks.compiler.LinkType@39d9314d, com.github.maven_nar.cpptasks.compiler.LinkType@6bf08014, com.github.maven_nar.cpptasks.compiler.LinkType@63eef88a, com.github.maven_nar.cpptasks.compiler.LinkType@702b8b12, com.github.maven_nar.cpptasks.compiler.LinkType@a530d0a, com.github.maven_nar.cpptasks.compiler.LinkType@25fb8912, com.github.maven_nar.cpptasks.compiler.LinkType@c7045b9, com.github.maven_nar.cpptasks.compiler.LinkType@2053d869, com.github.maven_nar.cpptasks.compiler.LinkType@31920ade, com.github.maven_nar.cpptasks.compiler.LinkType@28f2a10f, com.github.maven_nar.cpptasks.compiler.LinkType@5cdec700]
+OptimizationEnum optimization=[null]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.closeQuietly:-->
+ com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.consume:-->
 
+char ch=[C, c, d, D, U, E, u, e, l, L, n, N]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.closeQuietly:-->
+ com/github/maven_nar/cpptasks/LinkerDef.getEntry:-->
 
+int index=[1, 2]
+LinkerDef[] defaultProviders=[[Lcom.github.maven_nar.cpptasks.LinkerDef;@4f6f416f, [Lcom.github.maven_nar.cpptasks.LinkerDef;@181e731e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@343570b7, [Lcom.github.maven_nar.cpptasks.LinkerDef;@4da4253, [Lcom.github.maven_nar.cpptasks.LinkerDef;@22555ebf, [Lcom.github.maven_nar.cpptasks.LinkerDef;@41294f8, [Lcom.github.maven_nar.cpptasks.LinkerDef;@56c4278e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5454d35e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@2d778add, [Lcom.github.maven_nar.cpptasks.LinkerDef;@43b9fd5, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5ab9e72c, [Lcom.github.maven_nar.cpptasks.LinkerDef;@6989da5e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44d52de2, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5552768b, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44a7bfbc, [Lcom.github.maven_nar.cpptasks.LinkerDef;@68e965f5]
 
 ----------
- org/apache/commons/dbutils/StatementConfiguration$Builder.maxFieldSize:-->
+ com/github/maven_nar/cpptasks/sun/ForteCCCompiler.addWarningSwitch:-->
 
-Integer maxFieldSize = 3		---> Constant Invariant
+int level=[0, 1, 2, 3, 4, 5]
+Vector args=[[-w], []]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/LongColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/ibm/TestVisualAgeCCompiler.TestVisualAgeCCompiler:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+String name=[testBidCpp2, testBidAssembly, testBidCpp3, testBidPreprocessed, testBidC, testBidCpp4, testBidCpp]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunnerTest.callGoodQuery:-->
+ com/github/maven_nar/cpptasks/TestCUtil.TestCUtil:-->
 
-Connection sql = conn		---> Constant Invariant
+String name=[testXmlEncode, testGetRelativePath1, testGetRelativePath2, testGetRelativePath3, testGetRelativePath4, testParsePath1, testParsePath3, testParsePath2, testParsePath5, testParsePath4, testGetRelativePath10, testGetRelativePath9, testGetPathFromEnvironment, testGetRelativePath5, testGetRelativePath6, testGetRelativePath7, testGetRelativePath8]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callUpdateWithException:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.setId:-->
 
+String id=[extended, base]
 
 ----------
- org/apache/commons/dbutils/DbUtils.rollbackAndCloseQuietly:-->
+ com/github/maven_nar/cpptasks/intel/IntelLinux64Linker.IntelLinux64Linker:-->
 
+IntelLinux64Linker libtoolLinker=[null, ecpc]
+String outputSuffix=[, .so]
+bool isLibtool=[false, true]
+String outputPrefix=[, lib]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callBatchWithException:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.setIf:-->
 
-String sql = select * from blah where ?		---> Constant Invariant
+String propName=[bogus, cond]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunnerTest.callBatchWithException:-->
+ com/github/maven_nar/cpptasks/compiler/TestAbstractCompiler.TestAbstractCompiler:-->
 
-String sql = select * from blah where ?		---> Constant Invariant
+String name=[testCanParseTlb, testGetIdentfier]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$16.AsyncQueryRunner$16:-->
+ com/github/maven_nar/cpptasks/TestCompilerDef.getPreArguments:-->
 
-AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@3f9f71ff		---> Constant Invariant
-Object[] this = [Ljava.lang.Object;@ad3324b		---> Constant Invariant
-String this = 4		---> Constant Invariant
-ResultSetHandler this = org.apache.commons.dbutils.handlers.ArrayHandler@fabb651		---> Constant Invariant
-Connection this = conn		---> Constant Invariant
+ProcessorDef processor=[CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef]
 
 ----------
- org/apache/commons/dbutils/DbUtils$DriverProxy.connect:-->
+ com/github/maven_nar/cpptasks/TestCompilerDef.setCompilerName:-->
 
-String url = testUrl		---> Constant Invariant
-Properties info = {tes		---> Constant Invariant
+String name=[msvc]
+CompilerDef compiler=[CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef]
 
 ----------
- org/apache/commons/dbutils/GenerousBeanProcessor.mapColumnsToProperties:-->
+ com/github/maven_nar/cpptasks/types/LibrarySet.visitLibraries:-->
 
-ResultSetMetaData rsmd = metaData		---> Constant Invariant
+FileVisitor visitor=[com.github.maven_nar.cpptasks.MockFileCollector@c333c60, com.github.maven_nar.cpptasks.MockFileCollector@600b90df, com.github.maven_nar.cpptasks.MockFileCollector@a3d8174, com.github.maven_nar.cpptasks.MockFileCollector@5f354bcf, com.github.maven_nar.cpptasks.MockFileCollector@55536d9e, com.github.maven_nar.cpptasks.MockFileCollector@7b205dbd]
+File[] libpath=[[Ljava.io.File;@346d61be, [Ljava.io.File;@44821a96, [Ljava.io.File;@11bd0f3b, [Ljava.io.File;@26ceffa8, [Ljava.io.File;@6c2c1385, [Ljava.io.File;@132e0cc]
+Linker linker=[link: missing operand after '/DLL', lib]
+Project project=[org.apache.tools.ant.Project@67d18ed7, org.apache.tools.ant.Project@7582ff54, org.apache.tools.ant.Project@3738449f, org.apache.tools.ant.Project@15713d56, org.apache.tools.ant.Project@59af0466, org.apache.tools.ant.Project@be35cd9]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunnerTest.callQueryWithException:-->
+ com/github/maven_nar/cpptasks/LinkerDef.setProcessor:-->
 
+Processor proc=[7.3.0, link: missing operand after '/DLL']
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callQueryWithException:-->
+ com/github/maven_nar/cpptasks/types/LibrarySet.setDir:-->
 
+File dir=[\foo, C:\Users\praveen\AppData\Local\Temp]
 
 ----------
- org/apache/commons/dbutils/MockResultSetMetaData.MockResultSetMetaData:-->
+ com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.getDefineSwitch:-->
 
-String[] columnNames = [Ljava.lang.String;@3901f6af		---> Constant Invariant
+StringBuffer buffer=[-Dfoo=bar, -Dfoo=bar]
+String define=[foo]
+String value=[bar]
 
 ----------
- org/apache/commons/dbutils/DbUtils.commitAndClose:-->
+ com/github/maven_nar/cpptasks/TestTargetHistoryTable.TestTargetHistoryTable:-->
 
+String name=[testLoadOpenshore, testUpdateTimeResolution, testLoadXerces]
 
 ----------
- org/apache/commons/dbutils/handlers/BeanMapHandler.createRow:-->
+ com/github/maven_nar/cpptasks/types/LibrarySet.isActive:-->
 
-ResultSet rs = rs		---> Constant Invariant
+Project p=[org.apache.tools.ant.Project@5fd4f8f5, org.apache.tools.ant.Project@4e7912d8, org.apache.tools.ant.Project@696da30b, org.apache.tools.ant.Project@60129b9a, org.apache.tools.ant.Project@2f54a33d, org.apache.tools.ant.Project@3d9c13b5, org.apache.tools.ant.Project@53976f5c, org.apache.tools.ant.Project@66498326, org.apache.tools.ant.Project@436c81a3, org.apache.tools.ant.Project@492691d7, org.apache.tools.ant.Project@258d79be, org.apache.tools.ant.Project@557caf28, org.apache.tools.ant.Project@2bfc268b, org.apache.tools.ant.Project@d41f816, org.apache.tools.ant.Project@67080771, org.apache.tools.ant.Project@78d6692f, org.apache.tools.ant.Project@1869fbd2, org.apache.tools.ant.Project@7a55af6b]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callGoodUpdate:-->
+ com/github/maven_nar/cpptasks/TestXMLConsumer.copyResourceToTmpDir:-->
 
-Connection sql = conn		---> Constant Invariant
+String resourceName=[xerces-c/history.xml, openshore/history.xml, openshore/dependencies.xml, xerces-c/dependencies.xml]
+String tmpFile=[history.xml, dependencies.xml]
 
 ----------
- org/apache/commons/dbutils/handlers/BeanMapHandler.createKey:-->
+ com/github/maven_nar/NarLayout20.getBinDirectory:-->
 
-ResultSet rs = rs		---> Constant Invariant
+String artifactId=[null]
+File baseDir=[\Users\maven]
+String aol=[x86_64-MacOSX-g++]
+String version=[null]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.prepareCall:-->
+ com/github/maven_nar/cpptasks/parser/PostE.consume:-->
 
-String sql = {		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+char ch=[ , ", f, <]
 
 ----------
- org/apache/commons/dbutils/StatementConfiguration$Builder.queryTimeout:-->
+ com/github/maven_nar/cpptasks/gcc/GccProcessor.convertCygwinFilenames:-->
 
-Integer queryTimeout = 5		---> Constant Invariant
+String[] names=[[Ljava.lang.String;@193f604a, [Ljava.lang.String;@6d3a388c, [Ljava.lang.String;@223aa2f7]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.fillStatement:-->
+ com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranCompiler.CompaqVisualFortranCompiler:-->
 
+Environment env=[null]
+bool newEnvironment=[false]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$8.AsyncQueryRunner$8:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.setDebug:-->
 
-String this = update blah set unit		---> Constant Invariant
-Connection this = conn		---> Constant Invariant
-Object this = test		---> Constant Invariant
+bool debug=[true]
 
 ----------
- org/apache/commons/dbutils/DbUtils.closeQuietly:-->
+ com/github/maven_nar/cpptasks/TestProcessorDef.createExtendedProcessorDef:-->
 
+ProcessorDef baseProcessor=[LinkerDef, CompilerDef, LinkerDef, CompilerDef, LinkerDef, LinkerDef, LinkerDef, CompilerDef, CompilerDef, LinkerDef, LinkerDef, LinkerDef, CompilerDef, CompilerDef, LinkerDef, LinkerDef, CompilerDef, CompilerDef, LinkerDef, LinkerDef, CompilerDef, LinkerDef, CompilerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, CompilerDef, LinkerDef, LinkerDef, LinkerDef, CompilerDef, LinkerDef, CompilerDef, CompilerDef, LinkerDef, CompilerDef, LinkerDef, LinkerDef, LinkerDef, CompilerDef, LinkerDef, CompilerDef, CompilerDef, LinkerDef, CompilerDef, LinkerDef, LinkerDef, LinkerDef, CompilerDef, CompilerDef, CompilerDef, LinkerDef, CompilerDef, CompilerDef]
 
 ----------
- org/apache/commons/dbutils/DbUtils.closeQuietly:-->
+ com/github/maven_nar/cpptasks/arm/ADSCCompiler.ADSCCompiler:-->
 
+Environment env=[null]
+bool newEnvironment=[false]
+String command=[armcc, tcc, armcpp, tcpp]
 
 ----------
- org/apache/commons/dbutils/DbUtils.closeQuietly:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.setUnless:-->
 
+String propName=[bogus, cond]
 
 ----------
- org/apache/commons/dbutils/DbUtils.closeQuietly:-->
+ com/github/maven_nar/NarProperties.getInstance:-->
 
+MavenProject project=[null]
 
 ----------
- org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+ com/github/maven_nar/cpptasks/gcc/TestGccLinker.TestGccLinker:-->
 
-int convert = 2		---> Constant Invariant
-Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+String name=[testGetLinkerDarwinPlugin, testGetLinkerDarwinShared, testGetLinkerNonDarwinPlugin, testGetLinkerNonDarwinShared]
 
 ----------
- org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+ com/github/maven_nar/cpptasks/gcc/TestGccCompatibleCCompiler.TestGccCompatibleCCompiler:-->
 
-String convert = id		---> Constant Invariant
-Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+String name=[testCreateCParser3, testCreateCParser2, testCreateCParser1, testWarningLevel3, testWarningLevel2, testWarningLevel5, testWarningLevel4, testWarningLevel1, testWarningLevel0, testCreateFortranParser2, testCreateFortranParser1, testCreateFortranParser3, testBidPreprocessedCpp, testBidObjectiveAssembly, testBidObjectiveC, testBidObjectiveCpp]
 
 ----------
- org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+ com/github/maven_nar/cpptasks/CompilerDef.getOptimization:-->
 
-Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+CompilerDef[] defaultProviders=[[Lcom.github.maven_nar.cpptasks.CompilerDef;@6aa61224, [Lcom.github.maven_nar.cpptasks.CompilerDef;@7e7be63f, [Lcom.github.maven_nar.cpptasks.CompilerDef;@49912c99, [Lcom.github.maven_nar.cpptasks.CompilerDef;@6853425f, [Lcom.github.maven_nar.cpptasks.CompilerDef;@5b7a8434, [Lcom.github.maven_nar.cpptasks.CompilerDef;@5117dd67, [Lcom.github.maven_nar.cpptasks.CompilerDef;@bd4dc25, [Lcom.github.maven_nar.cpptasks.CompilerDef;@2c35e847, [Lcom.github.maven_nar.cpptasks.CompilerDef;@4032d386, [Lcom.github.maven_nar.cpptasks.CompilerDef;@78aa1f72, [Lcom.github.maven_nar.cpptasks.CompilerDef;@76c3e77a, [Lcom.github.maven_nar.cpptasks.CompilerDef;@6da21078, [Lcom.github.maven_nar.cpptasks.CompilerDef;@1fb19a0, [Lcom.github.maven_nar.cpptasks.CompilerDef;@14555e0a]
+int index=[1, 2]
 
 ----------
- org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+ com/github/maven_nar/cpptasks/parser/CParser.addFilename:-->
 
-RowProcessor convert = rp		---> Constant Invariant
-Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+String include=[foo.h]
 
 ----------
- org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+ com/github/maven_nar/cpptasks/types/CommandLineArgument.setValue:-->
 
-Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
-int 1 <= columnIndex <= 2		---> Range Invariant
+String value=[/base]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$15.AsyncQueryRunner$15:-->
+ com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.VisualAgeLinker:-->
 
-AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@3f9f71ff		---> Constant Invariant
-String this = 3		---> Constant Invariant
-ResultSetHandler this = org.apache.commons.dbutils.handlers.ArrayHandler@fabb651		---> Constant Invariant
-Connection this = conn		---> Constant Invariant
+String outputSuffix=[, .a]
+String[] extensions=[[Ljava.lang.String;@5fbe4146]
+String outputPrefix=[, lib]
+String[] ignoredExtensions=[[Ljava.lang.String;@1e66f1f5]
+String command=[xlC]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.batch:-->
+ com/github/maven_nar/cpptasks/parser/FortranParser.parse:-->
 
-String closeConn = select * from blah where ?		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+Reader reader=[java.io.CharArrayReader@56528192, java.io.CharArrayReader@2ea227af, java.io.CharArrayReader@60d8c9b7]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.batch:-->
+ com/github/maven_nar/cpptasks/parser/CParser.parse:-->
 
+Reader reader=[java.io.CharArrayReader@4659191b, java.io.CharArrayReader@3e8c3cb, java.io.CharArrayReader@5e316c74, java.io.CharArrayReader@67f639d3, java.io.CharArrayReader@37918c79, java.io.CharArrayReader@d706f19, java.io.CharArrayReader@6e9175d8, java.io.CharArrayReader@23f7d05d, java.io.CharArrayReader@795509d9, java.io.CharArrayReader@5db45159, java.io.CharArrayReader@5d534f5d, java.io.CharArrayReader@501edcf1, java.io.CharArrayReader@240237d2, java.io.CharArrayReader@f0c8a99, java.io.CharArrayReader@78047b92, java.io.CharArrayReader@6646153, java.io.CharArrayReader@4034c28c, java.io.CharArrayReader@163e4e87, java.io.CharArrayReader@273e7444, java.io.CharArrayReader@593aaf41, java.io.CharArrayReader@368247b9, java.io.CharArrayReader@6404f418, java.io.CharArrayReader@229c6181, java.io.CharArrayReader@7a4ccb53]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.batch:-->
+ com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.MsvcMessageCompiler:-->
 
+Environment env=[null]
+bool newEnvironment=[false]
 
 ----------
- org/apache/commons/dbutils/DbUtils.loadDriver:-->
+ com/github/maven_nar/cpptasks/TargetHistoryTable$TargetHistoryTableHandler.TargetHistoryTable$TargetHistoryTableHandler:-->
 
-String classLoader = 		---> Constant Invariant
+Hashtable x1=[{}]
+TargetHistoryTable x0=[com.github.maven_nar.cpptasks.TargetHistoryTable@a37aefe, com.github.maven_nar.cpptasks.TargetHistoryTable@1583741e]
+File x2=[C:\Users\praveen\AppData\Local\Temp]
 
 ----------
- org/apache/commons/dbutils/DbUtils.loadDriver:-->
+ com/github/maven_nar/cpptasks/TargetHistoryTable$TargetHistoryTableHandler.TargetHistoryTable$TargetHistoryTableHandler:-->
 
-String driverClassName = 		---> Constant Invariant
-ClassLoader classLoader = jdk.internal.loader.ClassLoaders$AppClassLoader@5451c3a8		---> Constant Invariant
+Hashtable x1=[{}]
+TargetHistoryTable$1 x3=[null]
+TargetHistoryTable x0=[com.github.maven_nar.cpptasks.TargetHistoryTable@a37aefe, com.github.maven_nar.cpptasks.TargetHistoryTable@1583741e]
+File x2=[C:\Users\praveen\AppData\Local\Temp]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$1.AsyncQueryRunner$1:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.setRefid:-->
 
-AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@5ff90645		---> Constant Invariant
-String this = select * from blah where ?		---> Constant Invariant
-Connection this = conn		---> Constant Invariant
-Object[][] this = [[Ljava.lang.String;@373f7450		---> Constant Invariant
+Reference ref=[org.apache.tools.ant.types.Reference@7aaca91a, org.apache.tools.ant.types.Reference@7e6f74c]
 
 ----------
- org/apache/commons/dbutils/DbUtils$DriverProxy.acceptsURL:-->
+ com/github/maven_nar/cpptasks/CompilerDef.setProcessor:-->
 
-String url = testUrl		---> Constant Invariant
+Processor proc=[link: missing operand after '/DLL', cl,  gcc 7.3.0 x86_64-pc-cygwin]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/StringColumnHandler.match:-->
+ com/github/maven_nar/NarFileLayout10.getBinDirectory:-->
 
+String aol=[x86_64-MacOSX-g++]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$5.AsyncQueryRunner$5:-->
+ com/github/maven_nar/cpptasks/parser/FortranParser.addFilename:-->
 
-String this = select * from blah where ?		---> Constant Invariant
+String include=[bar.inc, foo.inc]
 
 ----------
- org/apache/commons/dbutils/BasicRowProcessor.toBean:-->
+ com/github/maven_nar/cpptasks/sun/ForteF77Compiler.ForteF77Compiler:-->
 
-ResultSet rs = rs		---> Constant Invariant
-Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+String command=[f77]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/TimestampColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/intel/IntelLinuxFortranCompiler.IntelLinuxFortranCompiler:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+Environment env=[null]
+bool isLibtool=[false, true]
+bool newEnvironment=[false]
+IntelLinuxFortranCompiler libtoolCompiler=[null, ifort]
 
 ----------
- org/apache/commons/dbutils/BeanProcessor.mapColumnsToProperties:-->
+ com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.getLibraryPatterns:-->
 
-ResultSetMetaData rsmd = rsmd		---> Constant Invariant
-PropertyDescriptor[] props = [Ljava.beans.PropertyDescriptor;@fab35b1		---> Constant Invariant
+String[] libnames=[[Ljava.lang.String;@7c8c9a05, [Ljava.lang.String;@79da8dc5]
+LibraryTypeEnum libType=[null]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$4.AsyncQueryRunner$4:-->
+ com/github/maven_nar/NarLayout21.getLibDirectory:-->
 
-String this = select * from blah		---> Constant Invariant
-Connection this = conn		---> Constant Invariant
+String artifactId=[artifactId]
+File baseDir=[\Users\maven]
+String type=[shared]
+String aol=[x86_64-MacOSX-g++]
+String version=[version]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest$MyBean.QueryRunnerTest$MyBean:-->
+ com/github/maven_nar/cpptasks/CompilerDef.setMultithreaded:-->
 
+bool multithreaded=[false]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/DoubleColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.getOutputFileNames:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+VersionInfo versionInfo=[null]
+String baseName=[x]
 
 ----------
- org/apache/commons/dbutils/OutParameter.register:-->
+ com/github/maven_nar/cpptasks/types/FlexLong.FlexLong:-->
 
-int 1 <= index <= 3		---> Range Invariant
+String value=[10000]
 
 ----------
- org/apache/commons/dbutils/StatementConfiguration.StatementConfiguration:-->
+ com/github/maven_nar/cpptasks/intel/IntelLinux64CCompiler.IntelLinux64CCompiler:-->
 
+Environment env=[null]
+bool isLibtool=[false, true]
+bool newEnvironment=[false]
+IntelLinux64CCompiler libtoolCompiler=[null, ecc]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.insert:-->
+ com/github/maven_nar/cpptasks/compiler/CommandLineCompiler.addIncludes:-->
 
-ResultSetHandler closeConn = org.apache.commons.dbutils.handlers.ScalarHandler@3850e90c		---> Constant Invariant
-Object[] sql = [Ljava.lang.Object;@3d9f5016		---> Constant Invariant
+File[] includeDirs=[[Ljava.io.File;@662706a7, [Ljava.io.File;@662b4c69, [Ljava.io.File;@27adc16e, [Ljava.io.File;@7357a011, [Ljava.io.File;@3bf9ce3e, [Ljava.io.File;@483f6d77, [Ljava.io.File;@7d898981, [Ljava.io.File;@1e04fa0a, [Ljava.io.File;@418c5a9c, [Ljava.io.File;@48974e45, [Ljava.io.File;@2812b107, [Ljava.io.File;@7674b62c, [Ljava.io.File;@5ba3f27a, [Ljava.io.File;@7cbd9d24, [Ljava.io.File;@5f9b2141, [Ljava.io.File;@2b91004a, [Ljava.io.File;@2fb3536e, [Ljava.io.File;@6304101a, [Ljava.io.File;@5082d622, [Ljava.io.File;@71238fc2, [Ljava.io.File;@71def8f8, [Ljava.io.File;@7e19ebf0, [Ljava.io.File;@5a9f4771, [Ljava.io.File;@429bffaa, [Ljava.io.File;@147a5d08, [Ljava.io.File;@74751b3, [Ljava.io.File;@4738a206, [Ljava.io.File;@2609b277]
+Vector args=[[-c, -fno-exceptions, -Dfoo=bar], [-c, -fno-exceptions, -IE:\tmp], [-c, -fno-exceptions], [/c, /nologo, /EHsc, /DNDEBUG, /MD, /GR-, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [-c, -g, -fno-exceptions], [-c, -fno-exceptions, -IE:\tmp], [/base, -c, -fno-exceptions]]
+String baseDirPath=[E:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master]
+bool isSystem=[false, true]
+Vector relativeArgs=[null, [-c, -fno-exceptions, -Dfoo=bar], [-c, -fno-exceptions, -I..\..\..\..\tmp], [-c, -fno-exceptions], [/c, /nologo, /EHsc, /DNDEBUG, /MD, /GR-, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [-c, -g, -fno-exceptions], [/base, -c, -fno-exceptions]]
+StringBuffer includePathId=[null, , /I..\..\..\..\tmp, , , , , , , , , , , /I..\..\..\..\tmp, ]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.insert:-->
+ com/github/maven_nar/cpptasks/parser/WhitespaceOrCaseInsensitiveLetterState.WhitespaceOrCaseInsensitiveLetterState:-->
 
-ResultSetHandler rsh = org.apache.commons.dbutils.handlers.ScalarHandler@3850e90c		---> Constant Invariant
-bool closeConn = true		---> Constant Invariant
-Object[] params = [Ljava.lang.Object;@3d9f5016		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+char matchLetter=[I]
+AbstractParserState nextStateArg=[com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@78e117e3, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@770c2e6b, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@564718df, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@1dd92fe2, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@49c386c8, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@3967e60c, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@31ea9581, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@24569dba, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@1caa0244]
+AbstractParser parser=[com.github.maven_nar.cpptasks.parser.FortranParser@231f98ef, com.github.maven_nar.cpptasks.parser.FortranParser@7ce026d3, com.github.maven_nar.cpptasks.parser.FortranParser@353352b6, com.github.maven_nar.cpptasks.parser.FortranParser@6d2a209c, com.github.maven_nar.cpptasks.parser.FortranParser@6e0dec4a, com.github.maven_nar.cpptasks.parser.FortranParser@51b7e5df, com.github.maven_nar.cpptasks.parser.FortranParser@4d49af10, com.github.maven_nar.cpptasks.parser.FortranParser@48aaecc3, com.github.maven_nar.cpptasks.parser.FortranParser@6b53e23f]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/ShortColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/TargetInfo.TargetInfo:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+File[] sysSources=[null]
+File output=[null, , foo.obj, foo.o]
+bool rebuild=[false, true]
+ProcessorConfiguration config=[null, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@1efe439d, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@73ee04c8, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@1984b1f, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@26275bef, dummy, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@65b104b9, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@51f116b8, dummy, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@3246fb96, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@12d2ce03, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@68c72235, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@413f69cc, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@140c9f39, dummy, com.github.maven_nar.cpptasks.TestTargetInfo$DummyConfiguration@c7ba306, dummy]
+File[] sources=[null, [Ljava.io.File;@46b61c56, [Ljava.io.File;@5ae50ce6, [Ljava.io.File;@19d481b, [Ljava.io.File;@7690781, [Ljava.io.File;@12a94400, [Ljava.io.File;@3ba9ad43, [Ljava.io.File;@2abf4075, [Ljava.io.File;@6d167f58, [Ljava.io.File;@1f53a5dc, [Ljava.io.File;@2e222612, [Ljava.io.File;@be68757, [Ljava.io.File;@7671cb68, [Ljava.io.File;@1ef6d34c, [Ljava.io.File;@3bd323e9, [Ljava.io.File;@6c4980d3, [Ljava.io.File;@10959ece, [Ljava.io.File;@4ff8d125, [Ljava.io.File;@49dc7102]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$14.AsyncQueryRunner$14:-->
+ com/github/maven_nar/cpptasks/types/SystemIncludePath.SystemIncludePath:-->
 
-AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@3f9f71ff		---> Constant Invariant
-Object[] this = [Ljava.lang.Object;@764cba		---> Constant Invariant
-String this = 2		---> Constant Invariant
-ResultSetHandler this = org.apache.commons.dbutils.handlers.ArrayHandler@fabb651		---> Constant Invariant
+Project p=[org.apache.tools.ant.Project@40317ba2, org.apache.tools.ant.Project@7133da86]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunnerTest.callGoodUpdate:-->
+ com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.addPathSwitch:-->
 
-Connection sql = conn		---> Constant Invariant
+Vector args=[[/c, /nologo, /EHsc, /DNDEBUG, /MD, /GR-, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/c, /nologo, /EHsc, /DNDEBUG, /MD, /GR-, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/Zi, /Od, /RTC1, /D_DEBUG, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/Zi, /Od, /RTC1, /D_DEBUG, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/Zi, /Od, /RTC1, /D_DEBUG, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/Zi, /Od, /RTC1, /D_DEBUG, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\]]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/SQLXMLColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/intel/IntelLinux32Compiler.IntelLinux32Compiler:-->
 
+Environment env=[null]
+IntelLinux32Compiler libtoolCompiler=[null, icpc]
+bool isLibtool=[false, true]
+bool newEnvironment=[false]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/ShortColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/gcc/TestGccCCompiler.TestGccCCompiler:-->
 
+String name=[testCreateCParser3, testCreateCParser2, testCreateCParser1, testWarningLevel3, testWarningLevel2, testWarningLevel5, testWarningLevel4, testWarningLevel1, testWarningLevel0, testCreateFortranParser2, testCreateFortranParser1, testCreateFortranParser3, testBidPreprocessedCpp, testBidObjectiveAssembly, testBidObjectiveC, testBidObjectiveCpp]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.close:-->
+ com/github/maven_nar/cpptasks/CCTask.setFailonerror:-->
 
-ResultSet stmt = results		---> Constant Invariant
+bool fail=[false, true]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.close:-->
+ com/github/maven_nar/cpptasks/msvc/MsvcLinker.MsvcLinker:-->
 
+String outputSuffix=[.dll, .exe]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.close:-->
+ com/github/maven_nar/cpptasks/hp/TestaCCCompiler.TestaCCCompiler:-->
 
-Connection stmt = conn		---> Constant Invariant
+String name=[testBidCpp2, testBidAssembly, testBidCpp3, testBidPreprocessed, testBidCpp6, testBidC, testBidCpp7, testBidCpp4, testBidCpp5, testBidCpp8, testBidCpp9, testBidCpp]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.insertBatch:-->
+ com/github/maven_nar/cpptasks/sun/ForteCCLinker.ForteCCLinker:-->
 
-Object[][] sql = [[Ljava.lang.Object;@535b1ae6		---> Constant Invariant
-ResultSetHandler closeConn = org.apache.commons.dbutils.QueryRunnerTest$1@56cc9f29		---> Constant Invariant
+String outputSuffix=[, .a, .so]
+String[] extensions=[[Ljava.lang.String;@23348b5d]
+String outputPrefix=[, lib]
+String[] ignoredExtensions=[[Ljava.lang.String;@70325e14]
+String command=[CC]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.insertBatch:-->
+ com/github/maven_nar/cpptasks/compiler/CommandLineCompiler.createConfiguration:-->
 
-ResultSetHandler rsh = org.apache.commons.dbutils.QueryRunnerTest$1@56cc9f29		---> Constant Invariant
-bool closeConn = true		---> Constant Invariant
-Object[][] params = [[Ljava.lang.Object;@535b1ae6		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+VersionInfo versionInfo=[null]
+LinkType linkType=[com.github.maven_nar.cpptasks.compiler.LinkType@6bf08014, com.github.maven_nar.cpptasks.compiler.LinkType@63eef88a, com.github.maven_nar.cpptasks.compiler.LinkType@25fb8912, com.github.maven_nar.cpptasks.compiler.LinkType@c7045b9, com.github.maven_nar.cpptasks.compiler.LinkType@31920ade, com.github.maven_nar.cpptasks.compiler.LinkType@198d6542, com.github.maven_nar.cpptasks.compiler.LinkType@5fbdfdcf, com.github.maven_nar.cpptasks.compiler.LinkType@39d9314d, com.github.maven_nar.cpptasks.compiler.LinkType@702b8b12, com.github.maven_nar.cpptasks.compiler.LinkType@a530d0a, com.github.maven_nar.cpptasks.compiler.LinkType@2053d869, com.github.maven_nar.cpptasks.compiler.LinkType@28f2a10f, com.github.maven_nar.cpptasks.compiler.LinkType@5cdec700, com.github.maven_nar.cpptasks.compiler.LinkType@6d4e5011]
+CCTask task=[com.github.maven_nar.cpptasks.CCTask@47faa49c, com.github.maven_nar.cpptasks.CCTask@6057aebb, com.github.maven_nar.cpptasks.CCTask@30c8681, com.github.maven_nar.cpptasks.CCTask@5c669da8, com.github.maven_nar.cpptasks.CCTask@581ac8a8, com.github.maven_nar.cpptasks.CCTask@2f217633, com.github.maven_nar.cpptasks.CCTask@5d7148e2, com.github.maven_nar.cpptasks.CCTask@27d5a580, com.github.maven_nar.cpptasks.CCTask@727eb8cb, com.github.maven_nar.cpptasks.CCTask@1e683a3e, com.github.maven_nar.cpptasks.CCTask@4416d64f, com.github.maven_nar.cpptasks.CCTask@505fc5a4, com.github.maven_nar.cpptasks.CCTask@6cb6decd, com.github.maven_nar.cpptasks.CCTask@306f16f3]
+ProcessorDef[] baseDefs=[[Lcom.github.maven_nar.cpptasks.ProcessorDef;@6d026701, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@53251a66, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@7a419da4, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@1a18644, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@b978d10, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@5e403b4a, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@1d483de4, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@4efc180e, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@7c24b813, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@f99f5e0, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@f736069, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@5e3d57c7, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@57d7f8ca, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@22e357dc]
+CompilerDef specificDef=[CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef]
+TargetDef targetPlatform=[null]
 
 ----------
- org/apache/commons/dbutils/StatementConfiguration$Builder.fetchSize:-->
+ com/github/maven_nar/cpptasks/types/UndefineArgument.merge:-->
 
-Integer fetchSize = 2		---> Constant Invariant
+UndefineArgument[] override=[[Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@3270d194, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@759d26fb, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@3e6f3f28, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@67c33749, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@2ce6c6ec, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@56673b2c, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@5a5338df, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@21129f1f, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@614ca7df, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@15bbf42f, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@21e360a, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@4229bb3f, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@35399441, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@2931522b, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@55cf0d14, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@156b88f5]
+UndefineArgument[] base=[[Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@2dde1bff, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@172b013, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@5be49b60, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@4bb33f74, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@7bd4937b, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@6ee4d9ab, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@78123e82, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@352c1b98, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@6cd28fa7, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@5c45d770, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@25084a1e, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@30bce90b, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@55182842, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@7fee8714, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@1f75a668, [Lcom.github.maven_nar.cpptasks.types.UndefineArgument;@934b6cb]
 
 ----------
- org/apache/commons/dbutils/StatementConfiguration$Builder.maxRows:-->
+ com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.addImpliedArgs:-->
 
-Integer maxRows = 4		---> Constant Invariant
+bool multithreaded=[true]
+bool exceptions=[true]
+Boolean rtti=[null]
+Vector args=[[/c, /nologo, /EHsc, /DNDEBUG, /MD, /GR-, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\], [/c, /nologo, /EHsc, /DNDEBUG, /MD, /GR-, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\]]
+bool debug=[false]
+LinkType linkType=[com.github.maven_nar.cpptasks.compiler.LinkType@6d4e5011, com.github.maven_nar.cpptasks.compiler.LinkType@198d6542]
+OptimizationEnum optimization=[null]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/IntegerColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/gcc/TestAbstractArLibrarian.TestAbstractArLibrarian:-->
 
+String name=[testGetLibraryPatterns, testGetIdentfier, testBid, testOutputFileName]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$12.AsyncQueryRunner$12:-->
+ com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.addWarningSwitch:-->
 
-String this = select * from blah where ?		---> Constant Invariant
+int level=[0, -1, 1, 2, 3, 4, 5]
+Vector args=[[-w], [], [-c, -fno-exceptions, -Dfoo=bar], [-c, -fno-exceptions, -IE:\tmp], [-c, -fno-exceptions], [-c, -g, -fno-exceptions], [/base, -c, -fno-exceptions]]
 
 ----------
- org/apache/commons/dbutils/DbUtils$DriverProxy.getPropertyInfo:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.getProcessor:-->
 
-String url = testUrl		---> Constant Invariant
-Properties info = {tes		---> Constant Invariant
+LinkType linkType=[com.github.maven_nar.cpptasks.compiler.LinkType@6bf08014, com.github.maven_nar.cpptasks.compiler.LinkType@63eef88a, com.github.maven_nar.cpptasks.compiler.LinkType@25fb8912, com.github.maven_nar.cpptasks.compiler.LinkType@c7045b9, com.github.maven_nar.cpptasks.compiler.LinkType@31920ade, com.github.maven_nar.cpptasks.compiler.LinkType@198d6542, com.github.maven_nar.cpptasks.compiler.LinkType@5fbdfdcf, com.github.maven_nar.cpptasks.compiler.LinkType@39d9314d, com.github.maven_nar.cpptasks.compiler.LinkType@702b8b12, com.github.maven_nar.cpptasks.compiler.LinkType@a530d0a, com.github.maven_nar.cpptasks.compiler.LinkType@2053d869, com.github.maven_nar.cpptasks.compiler.LinkType@28f2a10f, com.github.maven_nar.cpptasks.compiler.LinkType@5cdec700, com.github.maven_nar.cpptasks.compiler.LinkType@6d4e5011]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.configureStatement:-->
+ com/github/maven_nar/AbstractNarLayout.AbstractNarLayout:-->
 
-Statement stmt = prepStmt		---> Constant Invariant
+Log log=[org.apache.maven.plugin.logging.SystemStreamLog@9ebe38b, org.apache.maven.plugin.logging.SystemStreamLog@332796d3, org.apache.maven.plugin.logging.SystemStreamLog@3899782c, org.apache.maven.plugin.logging.SystemStreamLog@30e868be, org.apache.maven.plugin.logging.SystemStreamLog@4f0100a7, org.apache.maven.plugin.logging.SystemStreamLog@4b23c30a, org.apache.maven.plugin.logging.SystemStreamLog@66c92293, org.apache.maven.plugin.logging.SystemStreamLog@1603cd68]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.execute:-->
+ com/github/maven_nar/cpptasks/msvc/TestInstalledMsvcLinker.TestInstalledMsvcLinker:-->
 
+String name=[testGetIdentfier, testBid]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.execute:-->
+ com/github/maven_nar/cpptasks/CompilerDef.setClassname:-->
 
+String classname=[com.github.maven_nar.cpptasks.msvc.MsvcLinker, com.github.maven_nar.cpptasks.gcc.GccCCompiler, com.github.maven_nar.cpptasks.bogus.BogusCompiler, com.github.maven_nar.cpptasks.msvc.MsvcCCompiler]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.execute:-->
+ com/github/maven_nar/cpptasks/types/LibrarySet.setProject:-->
 
-String closeConn = {		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+Project project=[org.apache.tools.ant.Project@4148db48, org.apache.tools.ant.Project@67d18ed7, org.apache.tools.ant.Project@3d1cfad4, org.apache.tools.ant.Project@59af0466, org.apache.tools.ant.Project@31206beb, org.apache.tools.ant.Project@1fc32e4f, org.apache.tools.ant.Project@135606db, org.apache.tools.ant.Project@436c81a3, org.apache.tools.ant.Project@625732, org.apache.tools.ant.Project@4082ba93, org.apache.tools.ant.Project@7fad8c79, org.apache.tools.ant.Project@557caf28, org.apache.tools.ant.Project@127a7a2e, org.apache.tools.ant.Project@558bdf1f, org.apache.tools.ant.Project@658c5a19, org.apache.tools.ant.Project@7582ff54, org.apache.tools.ant.Project@d41f816, org.apache.tools.ant.Project@78a773fd, org.apache.tools.ant.Project@29e495ff, org.apache.tools.ant.Project@4e41089d, org.apache.tools.ant.Project@6d60fe40, org.apache.tools.ant.Project@146dfe6, org.apache.tools.ant.Project@7a67e3c6, org.apache.tools.ant.Project@609e8838, org.apache.tools.ant.Project@3738449f, org.apache.tools.ant.Project@15713d56, org.apache.tools.ant.Project@2f54a33d, org.apache.tools.ant.Project@120d6fe6, org.apache.tools.ant.Project@23e84203, org.apache.tools.ant.Project@11e21d0e, org.apache.tools.ant.Project@59d4cd39, org.apache.tools.ant.Project@34f6515b, org.apache.tools.ant.Project@4df828d7, org.apache.tools.ant.Project@66498326, org.apache.tools.ant.Project@73eb439a, org.apache.tools.ant.Project@492691d7, org.apache.tools.ant.Project@302c971f, org.apache.tools.ant.Project@258d79be, org.apache.tools.ant.Project@41fecb8b, org.apache.tools.ant.Project@2bfc268b, org.apache.tools.ant.Project@67080771, org.apache.tools.ant.Project@be35cd9, org.apache.tools.ant.Project@1869fbd2, org.apache.tools.ant.Project@3ffcd140, org.apache.tools.ant.Project@a307a8c, org.apache.tools.ant.Project@7c37508a, org.apache.tools.ant.Project@76494737, org.apache.tools.ant.Project@16aa8654]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.execute:-->
+ com/github/maven_nar/cpptasks/compiler/TestAbstractLinker$DummyAbstractLinker.TestAbstractLinker$DummyAbstractLinker:-->
 
-String closeConn = {		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+TestAbstractLinker this=[testGetIdentfier(com.github.maven_nar.cpptasks.compiler.TestAbstractLinker), testBid(com.github.maven_nar.cpptasks.compiler.TestAbstractLinker), testGetIdentfier(com.github.maven_nar.cpptasks.compiler.TestAbstractLinker), testBid(com.github.maven_nar.cpptasks.compiler.TestAbstractLinker)]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.execute:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.addConfiguredProcessorArg:-->
 
+CommandLineArgument arg=[com.github.maven_nar.cpptasks.types.CompilerArgument@11f0a5a1, com.github.maven_nar.cpptasks.types.LinkerArgument@3f67593e, com.github.maven_nar.cpptasks.types.LinkerArgument@3cc1435c, com.github.maven_nar.cpptasks.types.CompilerArgument@3f6b0be5, com.github.maven_nar.cpptasks.types.LinkerArgument@7d286fb6, com.github.maven_nar.cpptasks.types.LinkerArgument@1573f9fc]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.execute:-->
+ com/github/maven_nar/cpptasks/compiler/CaptureStreamHandler.setProcessInputStream:-->
 
+OutputStream os=[java.io.BufferedOutputStream@15b3e5b, java.io.BufferedOutputStream@394a2528, java.io.BufferedOutputStream@57f23557, java.io.BufferedOutputStream@545997b1, java.io.BufferedOutputStream@3f56875e, java.io.BufferedOutputStream@382db087, java.io.BufferedOutputStream@7a675056, java.io.BufferedOutputStream@5c18298f, java.io.BufferedOutputStream@568bf312, java.io.BufferedOutputStream@10d68fcd, java.io.BufferedOutputStream@6aba2b86, java.io.BufferedOutputStream@77f80c04, java.io.BufferedOutputStream@2f465398, java.io.BufferedOutputStream@16022d9d]
 
 ----------
- org/apache/commons/dbutils/handlers/properties/StringEnumPropertyHandler.match:-->
+ com/github/maven_nar/cpptasks/gcc/TestAbstractLdLinker.TestAbstractLdLinker:-->
 
+String name=[testAddImpliedArgsDarwinShared, testAddLibrarySetLibSwitch, testAddImpliedArgsDarwinPlugin, testAddLibraryStatic, testAddLibrarySetLibFrameworkDarwin, testAddImpliedArgsNonDarwinShared, testLibReturnValue, testAddLibrarySetLibFrameworkNonDarwin, testAddLibrarySetDirSwitch, testAddImpliedArgsNonDarwinPlugin]
 
 ----------
- org/apache/commons/dbutils/MockResultSetMetaData.create:-->
+ com/github/maven_nar/cpptasks/types/LibrarySet.setType:-->
 
-String[] columnNames = [Ljava.lang.String;@3901f6af		---> Constant Invariant
+LibraryTypeEnum type=[framework, static, framework, framework, framework, static, static, framework, framework]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$13.AsyncQueryRunner$13:-->
+ com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.Assembler64bitCompiler:-->
 
-AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@3f9f71ff		---> Constant Invariant
-String this = 1		---> Constant Invariant
-ResultSetHandler this = org.apache.commons.dbutils.handlers.ArrayHandler@fabb651		---> Constant Invariant
+Environment env=[null]
+bool newEnvironment=[false]
 
 ----------
- org/apache/commons/dbutils/DbUtils.commitAndCloseQuietly:-->
+ com/github/maven_nar/cpptasks/ProcessorDef.getDefaultProviders:-->
 
+ProcessorDef baseDef=[null]
 
 ----------
- org/apache/commons/dbutils/BeanProcessor.toBean:-->
+ com/github/maven_nar/cpptasks/LinkerDef.addSyslibset:-->
 
-ResultSet rs = rs		---> Constant Invariant
-Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+SystemLibrarySet libset=[SystemLibrarySet, SystemLibrarySet]
 
 ----------
- org/apache/commons/dbutils/ProxyFactory.newProxyInstance:-->
+ com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.consume:-->
 
-InvocationHandler handler = org.apache.commons.dbutils.MockResultSetMetaData@10cd6753		---> Constant Invariant
-Class type = interface java.sql.ResultSetMetaData		---> Constant Invariant
+char ch=[ , Q, #, ', i, 	, /]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunnerTest.callUpdateWithException:-->
+ com/github/maven_nar/cpptasks/compiler/LinkType.setOutputType:-->
 
+OutputTypeEnum outputType=[plugin, plugin, shared, shared, plugin, shared, plugin, plugin, plugin, plugin, shared, plugin, plugin, shared, shared, shared, shared, shared, plugin, shared, executable, shared, plugin, plugin, plugin, plugin, shared, executable]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunner$11.AsyncQueryRunner$11:-->
+ com/github/maven_nar/cpptasks/types/LibrarySet.getDir:-->
 
-String this = update blah set unit		---> Constant Invariant
-Object this = test		---> Constant Invariant
+Project project=[null]
 
 ----------
- org/apache/commons/dbutils/handlers/properties/DatePropertyHandler.match:-->
+ com/github/maven_nar/NarLayout21.NarLayout21:-->
 
+Log log=[org.apache.maven.plugin.logging.SystemStreamLog@332796d3, org.apache.maven.plugin.logging.SystemStreamLog@30e868be, org.apache.maven.plugin.logging.SystemStreamLog@4f0100a7, org.apache.maven.plugin.logging.SystemStreamLog@66c92293]
 
 ----------
- org/apache/commons/dbutils/DbUtils.rollbackAndClose:-->
+ com/github/maven_nar/cpptasks/CCTask.setObjdir:-->
 
+File dir=[dummy]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/ByteColumnHandler.match:-->
+ com/github/maven_nar/cpptasks/trolltech/TestMetaObjectCompiler.TestMetaObjectCompiler:-->
 
+String name=[testCanParseTlb, testGetIdentfier]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.query:-->
+ com/github/maven_nar/cpptasks/TestLinkerEnum.TestLinkerEnum:-->
 
-String closeConn = select * from blah		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+String name=[testContainsValueGpp]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.query:-->
+ com/github/maven_nar/cpptasks/compiler/CaptureStreamHandler.setProcessErrorStream:-->
 
-String conn = select * from blah where ?		---> Constant Invariant
+InputStream is=[java.lang.Process$PipeInputStream@7c1e2a9e, java.lang.Process$PipeInputStream@6366ebe0, java.lang.Process$PipeInputStream@74e52303, java.lang.Process$PipeInputStream@77846d2c, java.lang.Process$PipeInputStream@44a3ec6b, java.lang.Process$PipeInputStream@623a8092, java.lang.Process$PipeInputStream@589b3632, java.lang.Process$PipeInputStream@5c90e579, java.lang.Process$PipeInputStream@6e509ffa, java.lang.Process$PipeInputStream@4b53f538, java.lang.Process$PipeInputStream@fd07cbb, java.lang.Process$PipeInputStream@80169cf, java.lang.Process$PipeInputStream@6db9f5a4, java.lang.Process$PipeInputStream@5579bb86]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.query:-->
+ com/github/maven_nar/cpptasks/compiler/AbstractLinker.AbstractLinker:-->
 
-String closeConn = select * from blah where ?		---> Constant Invariant
-Connection conn = conn		---> Constant Invariant
+String[] objExtensions=[[Ljava.lang.String;@c0c2f8d, [Ljava.lang.String;@2473d930, [Ljava.lang.String;@3bbc39f8, [Ljava.lang.String;@45c7e403, [Ljava.lang.String;@20d525, [Ljava.lang.String;@63475ace, [Ljava.lang.String;@707194ba, [Ljava.lang.String;@6f4a47c7, [Ljava.lang.String;@74455848, [Ljava.lang.String;@ba2f4ec, [Ljava.lang.String;@4009e306, [Ljava.lang.String;@6ad82709, [Ljava.lang.String;@1e178745, [Ljava.lang.String;@757942a1, [Ljava.lang.String;@10aa41f2, [Ljava.lang.String;@5b94b04d, [Ljava.lang.String;@2ea6137, [Ljava.lang.String;@17f7cd29, [Ljava.lang.String;@6a1aab78, [Ljava.lang.String;@24aed80c, [Ljava.lang.String;@279fedbd, [Ljava.lang.String;@58a9760d, [Ljava.lang.String;@3d34d211, [Ljava.lang.String;@544fa968, [Ljava.lang.String;@7bedc48a, [Ljava.lang.String;@6913c1fb, [Ljava.lang.String;@33c911a1, [Ljava.lang.String;@23348b5d, [Ljava.lang.String;@1d119efb, [Ljava.lang.String;@7dc222ae, [Ljava.lang.String;@757277dc, [Ljava.lang.String;@24269709, [Ljava.lang.String;@6a2f6f80, [Ljava.lang.String;@26794848, [Ljava.lang.String;@4c39bec8, [Ljava.lang.String;@4516af24, [Ljava.lang.String;@65e98b1c, [Ljava.lang.String;@2e377400, [Ljava.lang.String;@5fbe4146, [Ljava.lang.String;@13b6aecc, [Ljava.lang.String;@2362f559, [Ljava.lang.String;@5aebe890, [Ljava.lang.String;@24313fcc]
+String[] ignoredExtensions=[[Ljava.lang.String;@659a969b, [Ljava.lang.String;@462d5aee, [Ljava.lang.String;@6d3af739, [Ljava.lang.String;@41ee392b, [Ljava.lang.String;@7dc0f706, [Ljava.lang.String;@35047d03, [Ljava.lang.String;@302552ec, [Ljava.lang.String;@6200f9cb, [Ljava.lang.String;@3af9c5b7, [Ljava.lang.String;@305b7c14, [Ljava.lang.String;@8c3b9d, [Ljava.lang.String;@b3ca52e, [Ljava.lang.String;@1e66f1f5, [Ljava.lang.String;@65d09a04, [Ljava.lang.String;@1c1bbc4e, [Ljava.lang.String;@247bddad, [Ljava.lang.String;@43c1b556, [Ljava.lang.String;@7d20d0b, [Ljava.lang.String;@4a87761d, [Ljava.lang.String;@2aceadd4, [Ljava.lang.String;@1190200a, [Ljava.lang.String;@71e9ddb4, [Ljava.lang.String;@45b4c3a9, [Ljava.lang.String;@f79e, [Ljava.lang.String;@131ef10, [Ljava.lang.String;@75db5df9, [Ljava.lang.String;@ed7f8b4, [Ljava.lang.String;@ae13544, [Ljava.lang.String;@1757cd72, [Ljava.lang.String;@70325e14, [Ljava.lang.String;@687e99d8, [Ljava.lang.String;@66d18979, [Ljava.lang.String;@7d8704ef, [Ljava.lang.String;@e7edb54, [Ljava.lang.String;@4ae3c1cd, [Ljava.lang.String;@61322f9d, [Ljava.lang.String;@b2c9a9c, [Ljava.lang.String;@4988d8b8, [Ljava.lang.String;@3a52dba3, [Ljava.lang.String;@192c3f1e, [Ljava.lang.String;@aecb35a, [Ljava.lang.String;@510f3d34, [Ljava.lang.String;@4ae82894, [Ljava.lang.String;@158a8276, [Ljava.lang.String;@2925bf5b]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.query:-->
+ com/github/maven_nar/cpptasks/TestAllClasses.TestAllClasses:-->
 
+String name=[TestAllClasses]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.query:-->
+ com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccLibrarian.GccLibrarian:-->
 
+String[] inputExtensions=[[Ljava.lang.String;@10aa41f2]
+GccLibrarian libtoolLibrarian=[null, sparc-sun-solaris2-ar]
+bool isLibtool=[false, true]
+String command=[sparc-sun-solaris2-ar]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/ByteColumnHandler.apply:-->
+ com/github/maven_nar/cpptasks/LinkerDef.setStack:-->
 
-ResultSet rs = rs		---> Constant Invariant
-int columnIndex = 1		---> Constant Invariant
+FlexInteger stack=[10000, 10000]
 
 ----------
- org/apache/commons/dbutils/AbstractQueryRunner.wrap:-->
+ com/github/maven_nar/cpptasks/compiler/CaptureStreamHandler.execute:-->
 
-ResultSet rs = results		---> Constant Invariant
+String[] cmdline=[[Ljava.lang.String;@38e79ae3, [Ljava.lang.String;@68267da0, [Ljava.lang.String;@71809907, [Ljava.lang.String;@52e6fdee, [Ljava.lang.String;@1a451d4d, [Ljava.lang.String;@6356695f, [Ljava.lang.String;@6c80d78a, [Ljava.lang.String;@62150f9e, [Ljava.lang.String;@5a4041cc, [Ljava.lang.String;@27d415d9, [Ljava.lang.String;@1da51a35, [Ljava.lang.String;@38102d01, [Ljava.lang.String;@76ed1b7c, [Ljava.lang.String;@5609159b, [Ljava.lang.String;@17a7f733, [Ljava.lang.String;@6a2b953e, [Ljava.lang.String;@694abbdc, [Ljava.lang.String;@2d2ffcb7, [Ljava.lang.String;@32eff876, [Ljava.lang.String;@8dbdac1, [Ljava.lang.String;@6e20b53a, [Ljava.lang.String;@5fdcaa40, [Ljava.lang.String;@b9afc07, [Ljava.lang.String;@313b2ea6, [Ljava.lang.String;@37883b97, [Ljava.lang.String;@6ab778a, [Ljava.lang.String;@1ebd319f, [Ljava.lang.String;@42e99e4a, [Ljava.lang.String;@3098cf3b, [Ljava.lang.String;@31f9b85e, [Ljava.lang.String;@661972b0, [Ljava.lang.String;@5af3afd9, [Ljava.lang.String;@63070bab, [Ljava.lang.String;@543e710e, [Ljava.lang.String;@3c0be339, [Ljava.lang.String;@6a03bcb1, [Ljava.lang.String;@11fc564b, [Ljava.lang.String;@424e1977, [Ljava.lang.String;@4567f35d, [Ljava.lang.String;@610f7aa, [Ljava.lang.String;@359f7cdf, [Ljava.lang.String;@6dc17b83, [Ljava.lang.String;@68e5eea7, [Ljava.lang.String;@6ff29830, [Ljava.lang.String;@15ca7889, [Ljava.lang.String;@762ef0ea, [Ljava.lang.String;@3bb9a3ff, [Ljava.lang.String;@2118cddf, [Ljava.lang.String;@2e005c4b, [Ljava.lang.String;@4d9e68d0, [Ljava.lang.String;@7fa98a66, [Ljava.lang.String;@1d9b7cce, [Ljava.lang.String;@57250572, [Ljava.lang.String;@5ffead27, [Ljava.lang.String;@32910148, [Ljava.lang.String;@21b2e768, [Ljava.lang.String;@323b36e0, [Ljava.lang.String;@4e3958e7, [Ljava.lang.String;@4f18837a, [Ljava.lang.String;@29f69090, [Ljava.lang.String;@3ce1e309, [Ljava.lang.String;@44ebcd03, [Ljava.lang.String;@14dd9eb7, [Ljava.lang.String;@7334aada, [Ljava.lang.String;@291b4bf5, [Ljava.lang.String;@441772e, [Ljava.lang.String;@5e0826e7, [Ljava.lang.String;@2638011, [Ljava.lang.String;@68567e20, [Ljava.lang.String;@74a10858, [Ljava.lang.String;@61862a7f, [Ljava.lang.String;@484970b0, [Ljava.lang.String;@1fa268de, [Ljava.lang.String;@1eb5174b]
 
 ----------
- org/apache/commons/dbutils/handlers/properties/DatePropertyHandler.apply:-->
+ com/github/maven_nar/cpptasks/TestTargetHistoryTable$MockProcessorConfiguration.getOutputFileNames:-->
 
-Object value = Fri Apr 24 14:25:36 CDT 2020		---> Constant Invariant
+VersionInfo versionInfo=[null]
+String baseName=[dummy.o]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callGoodBatch:-->
+ com/github/maven_nar/cpptasks/gcc/GccProcessor.parseSpecs:-->
 
+String[] options=[[Ljava.lang.String;@50ad3bc1]
+String[] specsContent=[[Ljava.lang.String;@6c130c45]
+String specSectionStart=[*cpp:]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callGoodBatch:-->
+ com/github/maven_nar/cpptasks/compiler/AbstractCompiler.setObjDir:-->
 
-Connection params = conn		---> Constant Invariant
-Object[][] this = [[Ljava.lang.String;@7bc58891		---> Constant Invariant
+File objDir=[dummy]
 
 ----------
- org/apache/commons/dbutils/QueryRunner.retrieveOutParameters:-->
+ com/github/maven_nar/cpptasks/compiler/CaptureStreamHandler.run:-->
 
-CallableStatement stmt = call		---> Constant Invariant
+String[] cmdline=[[Ljava.lang.String;@38e79ae3, [Ljava.lang.String;@68267da0, [Ljava.lang.String;@71809907, [Ljava.lang.String;@52e6fdee, [Ljava.lang.String;@1a451d4d, [Ljava.lang.String;@6356695f, [Ljava.lang.String;@6c80d78a, [Ljava.lang.String;@62150f9e, [Ljava.lang.String;@5a4041cc, [Ljava.lang.String;@27d415d9, [Ljava.lang.String;@1da51a35, [Ljava.lang.String;@38102d01, [Ljava.lang.String;@76ed1b7c, [Ljava.lang.String;@5609159b, [Ljava.lang.String;@17a7f733, [Ljava.lang.String;@6a2b953e, [Ljava.lang.String;@694abbdc, [Ljava.lang.String;@2d2ffcb7, [Ljava.lang.String;@32eff876, [Ljava.lang.String;@8dbdac1, [Ljava.lang.String;@6e20b53a, [Ljava.lang.String;@5fdcaa40, [Ljava.lang.String;@b9afc07, [Ljava.lang.String;@313b2ea6, [Ljava.lang.String;@37883b97, [Ljava.lang.String;@6ab778a, [Ljava.lang.String;@1ebd319f, [Ljava.lang.String;@42e99e4a, [Ljava.lang.String;@3098cf3b, [Ljava.lang.String;@31f9b85e, [Ljava.lang.String;@661972b0, [Ljava.lang.String;@5af3afd9, [Ljava.lang.String;@63070bab, [Ljava.lang.String;@543e710e, [Ljava.lang.String;@3c0be339, [Ljava.lang.String;@6a03bcb1, [Ljava.lang.String;@11fc564b, [Ljava.lang.String;@424e1977, [Ljava.lang.String;@4567f35d, [Ljava.lang.String;@610f7aa, [Ljava.lang.String;@359f7cdf, [Ljava.lang.String;@6dc17b83, [Ljava.lang.String;@68e5eea7, [Ljava.lang.String;@6ff29830, [Ljava.lang.String;@15ca7889, [Ljava.lang.String;@762ef0ea, [Ljava.lang.String;@3bb9a3ff, [Ljava.lang.String;@2118cddf, [Ljava.lang.String;@2e005c4b, [Ljava.lang.String;@4d9e68d0, [Ljava.lang.String;@7fa98a66, [Ljava.lang.String;@1d9b7cce, [Ljava.lang.String;@57250572, [Ljava.lang.String;@5ffead27, [Ljava.lang.String;@32910148, [Ljava.lang.String;@21b2e768, [Ljava.lang.String;@323b36e0, [Ljava.lang.String;@4e3958e7, [Ljava.lang.String;@4f18837a, [Ljava.lang.String;@29f69090, [Ljava.lang.String;@3ce1e309, [Ljava.lang.String;@44ebcd03, [Ljava.lang.String;@14dd9eb7, [Ljava.lang.String;@7334aada, [Ljava.lang.String;@291b4bf5, [Ljava.lang.String;@441772e, [Ljava.lang.String;@5e0826e7, [Ljava.lang.String;@2638011, [Ljava.lang.String;@68567e20, [Ljava.lang.String;@74a10858, [Ljava.lang.String;@61862a7f, [Ljava.lang.String;@484970b0, [Ljava.lang.String;@1fa268de, [Ljava.lang.String;@1eb5174b]
 
 ----------
- org/apache/commons/dbutils/DbUtils.close:-->
+ com/github/maven_nar/Linker.Linker:-->
 
+Log name=[null]
 
 ----------
- org/apache/commons/dbutils/DbUtils.close:-->
+ com/github/maven_nar/cpptasks/compiler/TestAbstractCompiler$DummyAbstractCompiler.TestAbstractCompiler$DummyAbstractCompiler:-->
 
+TestAbstractCompiler this=[testGetIdentfier(com.github.maven_nar.cpptasks.compiler.TestAbstractCompiler), testCanParseTlb(com.github.maven_nar.cpptasks.compiler.TestAbstractCompiler), testCanParseTlb(com.github.maven_nar.cpptasks.compiler.TestAbstractCompiler), testGetIdentfier(com.github.maven_nar.cpptasks.compiler.TestAbstractCompiler)]
 
 ----------
- org/apache/commons/dbutils/DbUtils.close:-->
+ com/github/maven_nar/cpptasks/os390/OS390CCompiler.OS390CCompiler:-->
 
+Environment env=[null]
+bool newEnvironment=[false]
 
 ----------
- org/apache/commons/dbutils/handlers/columns/ColumnHandlerTestBase.ColumnHandlerTestBase:-->
+ com/github/maven_nar/NarLayout21.getNoArchDirectory:-->
 
+String artifactId=[artifactId]
+File baseDir=[\Users\maven]
+String version=[version]
 
 ----------
- org/apache/commons/dbutils/QueryRunnerTest.callGoodExecute:-->
+ com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.AbstractArLibrarian:-->
 
-Connection result = conn		---> Constant Invariant
+String[] inputExtensions=[[Ljava.lang.String;@4516af24, [Ljava.lang.String;@10aa41f2]
+String identificationArg=[V]
+String outputExtension=[.a]
+bool isLibtool=[false, true]
+String outputPrefix=[lib]
+String[] ignoredExtensions=[[Ljava.lang.String;@6d3af739, [Ljava.lang.String;@ed7f8b4, [Ljava.lang.String;@4ae82894, [Ljava.lang.String;@3af9c5b7]
+AbstractArLibrarian libtoolLibrarian=[null, GNU ar (GNU Binutils) 2.29.1.20171006, sparc-sun-solaris2-ar]
+String command=[ar, sparc-sun-solaris2-ar]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunnerTest.callGoodBatch:-->
+ com/github/maven_nar/cpptasks/types/ConditionalPath.ConditionalPath:-->
 
+Project p=[org.apache.tools.ant.Project@40317ba2, org.apache.tools.ant.Project@1ae8bcbc, org.apache.tools.ant.Project@7133da86, org.apache.tools.ant.Project@ea6147e, org.apache.tools.ant.Project@3406472c, org.apache.tools.ant.Project@383bfa16]
 
 ----------
- org/apache/commons/dbutils/AsyncQueryRunnerTest.callGoodBatch:-->
+ com/github/maven_nar/cpptasks/gcc/GccCCompiler.createParser:-->
 
-Connection params = conn		---> Constant Invariant
-Object[][] future = [[Ljava.lang.String;@373f7450		---> Constant Invariant
+File source=[foo, foo.c, foo.FoR, foo., foo.f, foo.f90]
 
 ----------
- 
+ com/github/maven_nar/NarLayout20.getIncludeDirectory:-->
+
+String artifactId=[null]
+File baseDir=[\Users\maven]
+String version=[null]
+
+----------
+ com/github/maven_nar/NarProperties.getProperty:-->
+
+String key=[amd64.Windows.linker]
+
+----------
+ com/github/maven_nar/cpptasks/TestXMLConsumer.deleteTmpFile:-->
+
+String tmpName=[history.xml, dependencies.xml]
+
+----------
+ com/github/maven_nar/cpptasks/parser/TestFortranParser.TestFortranParser:-->
+
+String name=[testINCLUDE, testMultipleInClUdE, testInClUdE]
+
+----------
+ com/github/maven_nar/cpptasks/TestCompilerEnum.TestCompilerEnum:-->
+
+String name=[testCompilerEnum2, testCompilerEnum1]
+
+----------
+ com/github/maven_nar/cpptasks/TestLinkerDef.getPreArguments:-->
+
+ProcessorDef processor=[LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef, LinkerDef]
+
+----------
+ com/github/maven_nar/cpptasks/LinkerDef.addLibset:-->
+
+LibrarySet libset=[LibrarySet, LibrarySet]
+
+----------
+ com/github/maven_nar/cpptasks/LinkerDef.getActiveLibrarySets:-->
+
+int index=[1]
+LinkerDef[] defaultProviders=[[Lcom.github.maven_nar.cpptasks.LinkerDef;@4f6f416f, [Lcom.github.maven_nar.cpptasks.LinkerDef;@181e731e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@343570b7, [Lcom.github.maven_nar.cpptasks.LinkerDef;@4da4253, [Lcom.github.maven_nar.cpptasks.LinkerDef;@22555ebf, [Lcom.github.maven_nar.cpptasks.LinkerDef;@41294f8, [Lcom.github.maven_nar.cpptasks.LinkerDef;@56c4278e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5454d35e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@2d778add, [Lcom.github.maven_nar.cpptasks.LinkerDef;@43b9fd5, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5ab9e72c, [Lcom.github.maven_nar.cpptasks.LinkerDef;@6989da5e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44d52de2, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5552768b, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44a7bfbc, [Lcom.github.maven_nar.cpptasks.LinkerDef;@68e965f5]
+
+----------
+ com/github/maven_nar/cpptasks/TestProcessorDef.TestProcessorDef:-->
+
+String name=[testExtendsLinkerArgs, testGetActiveIncludePaths, testUnknownClass, testExtendsIf, testExtendsExceptions, testWrongType, testExtendsFixed, testExtendsDebug, testExtendsIncludePath, testExtendsLibSet, testGetActiveDefines, testExtendsSysIncludePath, testExtendsRebuild, testExtendsCompilerArgs, testExtendsStack, testExtendsSysLibSet, testExtendsClassname, testExtendsUnless, testIsActive6, testIsActive7, testIsActive8, testExtendsIncremental, testGetMSVC, testIsActive2, testGetGcc, testIsActive3, testIsActive4, testExtendsFileSet, testExtendsBase, testExtendsName, testIsActive5, testExtendsMultithreaded, testExtendsLinkerArgsViaReference, testExtendsMap, testExtendsDefineSet, testExtendsEntry]
+
+----------
+ com/github/maven_nar/cpptasks/os400/IccCompiler.IccCompiler:-->
+
+Environment env=[null]
+bool newEnvironment=[false]
+
+----------
+ com/github/maven_nar/cpptasks/CompilerDef.addConfiguredDefineset:-->
+
+DefineSet defs=[DefineSet, DefineSet, DefineSet, DefineSet]
+
+----------
+ com/github/maven_nar/cpptasks/TestProcessorDef.testExtendsRebuild:-->
+
+ProcessorDef baseProcessor=[CompilerDef, CompilerDef, LinkerDef, LinkerDef]
+
+----------
+ com/github/maven_nar/cpptasks/ProcessorDef.setExtends:-->
+
+Reference extendsRef=[org.apache.tools.ant.types.Reference@32ee6fee, org.apache.tools.ant.types.Reference@757acd7b, org.apache.tools.ant.types.Reference@306cf3ea, org.apache.tools.ant.types.Reference@4a668b6e, org.apache.tools.ant.types.Reference@1a4013, org.apache.tools.ant.types.Reference@41ab013, org.apache.tools.ant.types.Reference@2d6c53fc, org.apache.tools.ant.types.Reference@51133c06, org.apache.tools.ant.types.Reference@75d4a5c2, org.apache.tools.ant.types.Reference@36a5cabc, org.apache.tools.ant.types.Reference@571c5681, org.apache.tools.ant.types.Reference@2e1d27ba, org.apache.tools.ant.types.Reference@73a8da0f, org.apache.tools.ant.types.Reference@22ef9844, org.apache.tools.ant.types.Reference@4eaf3684, org.apache.tools.ant.types.Reference@345f69f3, org.apache.tools.ant.types.Reference@3081f72c, org.apache.tools.ant.types.Reference@5fa07e12, org.apache.tools.ant.types.Reference@125290e5, org.apache.tools.ant.types.Reference@16a0ee18, org.apache.tools.ant.types.Reference@16b2bb0c, org.apache.tools.ant.types.Reference@68d279ec, org.apache.tools.ant.types.Reference@31190526, org.apache.tools.ant.types.Reference@dd0c991, org.apache.tools.ant.types.Reference@7748410a, org.apache.tools.ant.types.Reference@3315d2d7, org.apache.tools.ant.types.Reference@57af006c, org.apache.tools.ant.types.Reference@3eb81efb, org.apache.tools.ant.types.Reference@59cba5a, org.apache.tools.ant.types.Reference@f5acb9d, org.apache.tools.ant.types.Reference@71e9ebae, org.apache.tools.ant.types.Reference@1e8b7643, org.apache.tools.ant.types.Reference@4d1c00d0, org.apache.tools.ant.types.Reference@58695725, org.apache.tools.ant.types.Reference@7b8b43c7, org.apache.tools.ant.types.Reference@490caf5f, org.apache.tools.ant.types.Reference@9573584, org.apache.tools.ant.types.Reference@44c03695, org.apache.tools.ant.types.Reference@1da2cb77, org.apache.tools.ant.types.Reference@18d87d80, org.apache.tools.ant.types.Reference@31add175, org.apache.tools.ant.types.Reference@302f7971, org.apache.tools.ant.types.Reference@4e31276e, org.apache.tools.ant.types.Reference@1b1426f4, org.apache.tools.ant.types.Reference@482bce4f, org.apache.tools.ant.types.Reference@74a6f9c1, org.apache.tools.ant.types.Reference@2177849e, org.apache.tools.ant.types.Reference@27ff5d15, org.apache.tools.ant.types.Reference@7ceb3185, org.apache.tools.ant.types.Reference@563e4951, org.apache.tools.ant.types.Reference@60015ef5, org.apache.tools.ant.types.Reference@2892dae4, org.apache.tools.ant.types.Reference@69f1a286, org.apache.tools.ant.types.Reference@d29f28, org.apache.tools.ant.types.Reference@5026735c, org.apache.tools.ant.types.Reference@75d2da2d]
+
+----------
+ com/github/maven_nar/cpptasks/LinkerDef.setFixed:-->
+
+bool fixed=[true]
+
+----------
+ com/github/maven_nar/cpptasks/compiler/TestCommandLineCompilerConfiguration.TestCommandLineCompilerConfiguration:-->
+
+String name=[testGetIdentifier, testToString, testConstructorNullCompiler, testBid, testGetOutputFileName1, testGetOutputFileName2]
+
+----------
+ com/github/maven_nar/cpptasks/types/LibrarySet.setIf:-->
+
+String propName=[windows]
+
+----------
+ com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.CaseInsensitiveLetterState:-->
+
+AbstractParserState noMatchStateArg=[null]
+char matchLetter=[C, D, E, U, L, N]
+AbstractParserState nextStateArg=[com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@29ba4338, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@4206a205, com.github.maven_nar.cpptasks.parser.LetterState@7f010382, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@5c909414, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@14028087, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@4b5a5ed1, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@2b4a2ec7, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@c540f5a, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@7bb58ca3, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@4b14c583, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@59d016c9, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@5386659f, com.github.maven_nar.cpptasks.parser.LetterState@6279cee3, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@1f0f1111, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@731f8236, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@971d0d8, com.github.maven_nar.cpptasks.parser.LetterState@1f3f4916, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@65466a6a, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@3e08ff24, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@226a82c4, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@7fe8ea47, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@1534f01b, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@35fc6dc4, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@491666ad, com.github.maven_nar.cpptasks.parser.LetterState@221a3fa4, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@6e9a5ed8, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@4d1c005e, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@20d28811, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@51931956, com.github.maven_nar.cpptasks.parser.LetterState@433d61fb, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@7e057f43, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@2b6faea6, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@794cb805, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@cecf639, com.github.maven_nar.cpptasks.parser.LetterState@351d0846, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@2767e23c, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@4ddced80, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@2b40ff9c, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@3cc2931c, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@176d53b2, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@710c2b53, com.github.maven_nar.cpptasks.parser.LetterState@268f106e, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@57175e74, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@670002, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@5890e879, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@77e4c80f, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@6c284af, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@6440112d, com.github.maven_nar.cpptasks.parser.LetterState@3b2c72c2, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@778d1062, com.github.maven_nar.cpptasks.parser.LetterState@6fa51cd4, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@451001e5, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@8462f31, com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState@1e802ef9]
+AbstractParser parser=[com.github.maven_nar.cpptasks.parser.FortranParser@231f98ef, com.github.maven_nar.cpptasks.parser.FortranParser@7ce026d3, com.github.maven_nar.cpptasks.parser.FortranParser@353352b6, com.github.maven_nar.cpptasks.parser.FortranParser@6d2a209c, com.github.maven_nar.cpptasks.parser.FortranParser@6e0dec4a, com.github.maven_nar.cpptasks.parser.FortranParser@51b7e5df, com.github.maven_nar.cpptasks.parser.FortranParser@4d49af10, com.github.maven_nar.cpptasks.parser.FortranParser@48aaecc3, com.github.maven_nar.cpptasks.parser.FortranParser@6b53e23f]
+
+----------
+ com/github/maven_nar/cpptasks/trolltech/TestMetaObjectParser.TestMetaObjectParser:-->
+
+String name=[testHasQObject2, testHasQObject1]
+
+----------
+ com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.MsvcMIDLCompiler:-->
+
+Environment env=[null]
+bool newEnvironment=[false]
+
+----------
+ com/github/maven_nar/cpptasks/LinkerDef.getIncremental:-->
+
+int index=[1, 2]
+LinkerDef[] defaultProviders=[[Lcom.github.maven_nar.cpptasks.LinkerDef;@4f6f416f, [Lcom.github.maven_nar.cpptasks.LinkerDef;@181e731e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@343570b7, [Lcom.github.maven_nar.cpptasks.LinkerDef;@4da4253, [Lcom.github.maven_nar.cpptasks.LinkerDef;@22555ebf, [Lcom.github.maven_nar.cpptasks.LinkerDef;@41294f8, [Lcom.github.maven_nar.cpptasks.LinkerDef;@56c4278e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5454d35e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@2d778add, [Lcom.github.maven_nar.cpptasks.LinkerDef;@43b9fd5, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5ab9e72c, [Lcom.github.maven_nar.cpptasks.LinkerDef;@6989da5e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44d52de2, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5552768b, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44a7bfbc, [Lcom.github.maven_nar.cpptasks.LinkerDef;@68e965f5]
+
+----------
+ com/github/maven_nar/cpptasks/CompilerDef.setExceptions:-->
+
+bool exceptions=[true]
+
+----------
+ com/github/maven_nar/cpptasks/parser/FilenameState.consume:-->
+
+char ch=[ , a, ", b, c, f, ', h, i, ., n, o, r, >]
+
+----------
+ com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccLinker.GccLinker:-->
+
+String outputSuffix=[, .so, .dylib, .bundle]
+GccLinker libtoolLinker=[null, sparc-sun-solaris2-gcc]
+String[] extensions=[[Ljava.lang.String;@1e178745]
+bool isLibtool=[false, true]
+String outputPrefix=[, lib]
+String[] ignoredExtensions=[[Ljava.lang.String;@192c3f1e]
+String command=[sparc-sun-solaris2-gcc]
+
+----------
+ com/github/maven_nar/NarLayout20.getLibDirectory:-->
+
+String artifactId=[null]
+File baseDir=[\Users\maven]
+String type=[shared]
+String aol=[x86_64-MacOSX-g++]
+String version=[null]
+
+----------
+ com/github/maven_nar/cpptasks/types/LibrarySet.setLibs:-->
+
+CUtil$StringArrayBuilder libs=[com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@421e361, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@282003e1, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@72cde7cc, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@3e6ef8ad, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@6cc558c6, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@67545b57, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@19932c16, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@57c03d88, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@69e1dd28, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@2f8dad04, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@5c2375a9, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@5e25a92e, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@43df23d3, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@518caac3, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@2f67b837, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@4ba2ca36, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@408d971b, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@2c78d320, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@51dcb805, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@33cb5951, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@3e77a1ed, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@62fdb4a6, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@2b30a42c, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@4716be8b, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@1972e513, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@247310d0, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@120f102b, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@1dd02175, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@4944252c, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@514646ef, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@3fc79729, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@1187c9e8, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@6d7fc27, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@41e1e210, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@6e01f9b0, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@3561c410, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@63f259c3, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@14008db3, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@14f9390f, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@792b749c, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@8576fa0, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@23bb8443, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@1018bde2, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@62230c58, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@4a003cbe, com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder@27216cd]
+
+----------
+ com/github/maven_nar/cpptasks/parser/AbstractParserState.AbstractParserState:-->
+
+AbstractParser parser=[com.github.maven_nar.cpptasks.parser.CParser@309e345f, com.github.maven_nar.cpptasks.parser.CParser@6253c26, com.github.maven_nar.cpptasks.parser.CParser@55634720, com.github.maven_nar.cpptasks.parser.CParser@4686afc2, com.github.maven_nar.cpptasks.parser.CParser@1a6d8329, com.github.maven_nar.cpptasks.parser.FortranParser@353352b6, com.github.maven_nar.cpptasks.parser.CParser@40e6dfe1, com.github.maven_nar.cpptasks.parser.FortranParser@6e0dec4a, com.github.maven_nar.cpptasks.parser.CParser@7db12bb6, com.github.maven_nar.cpptasks.parser.CParser@8909f18, com.github.maven_nar.cpptasks.parser.CParser@4c60d6e9, com.github.maven_nar.cpptasks.parser.CParser@740cae06, com.github.maven_nar.cpptasks.parser.CParser@56de5251, com.github.maven_nar.cpptasks.parser.CParser@25a65b77, com.github.maven_nar.cpptasks.parser.CParser@78b729e6, com.github.maven_nar.cpptasks.parser.CParser@2e3967ea, com.github.maven_nar.cpptasks.parser.CParser@21507a04, com.github.maven_nar.cpptasks.parser.FortranParser@4d49af10, com.github.maven_nar.cpptasks.parser.CParser@e50a6f6, com.github.maven_nar.cpptasks.parser.CParser@1e730495, com.github.maven_nar.cpptasks.parser.CParser@78e94dcf, com.github.maven_nar.cpptasks.parser.CParser@6a396c1e, com.github.maven_nar.cpptasks.parser.FortranParser@51b7e5df, com.github.maven_nar.cpptasks.parser.CParser@53045c6c, com.github.maven_nar.cpptasks.parser.FortranParser@48aaecc3, com.github.maven_nar.cpptasks.parser.FortranParser@6b53e23f, com.github.maven_nar.cpptasks.parser.CParser@741a8937, com.github.maven_nar.cpptasks.parser.FortranParser@231f98ef, com.github.maven_nar.cpptasks.parser.CParser@30b7c004, com.github.maven_nar.cpptasks.parser.FortranParser@7ce026d3, com.github.maven_nar.cpptasks.trolltech.MetaObjectParser@1fb669c3, com.github.maven_nar.cpptasks.parser.CParser@70b0b186, com.github.maven_nar.cpptasks.parser.FortranParser@6d2a209c, com.github.maven_nar.cpptasks.parser.CParser@146044d7, com.github.maven_nar.cpptasks.parser.CParser@7d0b7e3c, com.github.maven_nar.cpptasks.parser.CParser@3e11f9e9, com.github.maven_nar.cpptasks.parser.CParser@6107227e, com.github.maven_nar.cpptasks.trolltech.MetaObjectParser@5be46f9d, com.github.maven_nar.cpptasks.parser.CParser@5a56cdac, com.github.maven_nar.cpptasks.parser.CParser@563f38c4, com.github.maven_nar.cpptasks.parser.CParser@606e4010]
+
+----------
+ com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.Msvc2005CCompiler:-->
+
+Environment env=[null]
+bool newEnvironment=[false]
+String command=[cl]
+
+----------
+ com/github/maven_nar/cpptasks/sun/C89CCompiler.C89CCompiler:-->
+
+Environment env=[null]
+bool newEnvironment=[false]
+
+----------
+ com/github/maven_nar/cpptasks/LinkerDef.getStack:-->
+
+int index=[1, 2]
+LinkerDef[] defaultProviders=[[Lcom.github.maven_nar.cpptasks.LinkerDef;@4f6f416f, [Lcom.github.maven_nar.cpptasks.LinkerDef;@181e731e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@343570b7, [Lcom.github.maven_nar.cpptasks.LinkerDef;@4da4253, [Lcom.github.maven_nar.cpptasks.LinkerDef;@22555ebf, [Lcom.github.maven_nar.cpptasks.LinkerDef;@41294f8, [Lcom.github.maven_nar.cpptasks.LinkerDef;@56c4278e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5454d35e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@2d778add, [Lcom.github.maven_nar.cpptasks.LinkerDef;@43b9fd5, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5ab9e72c, [Lcom.github.maven_nar.cpptasks.LinkerDef;@6989da5e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44d52de2, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5552768b, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44a7bfbc, [Lcom.github.maven_nar.cpptasks.LinkerDef;@68e965f5]
+
+----------
+ com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.addWarningSwitch:-->
+
+int level=[-1]
+Vector args=[[/c, /nologo, /EHsc, /DNDEBUG, /MD, /GR-, /FdE:\Sem_4\Software_Testing_and_Validation\Project3\nar-maven-plugin-master\dummy\]]
+
+----------
+ com/github/maven_nar/cpptasks/TestCompilerDef.TestCompilerDef:-->
+
+String name=[testGetActiveIncludePaths, testUnknownClass, testExtendsIf, testExtendsExceptions, testWrongType, testExtendsIncludePath, testExtendsDebug, testGetActiveDefines, testExtendsSysIncludePath, testExtendsRebuild, testExtendsCompilerArgs, testExtendsClassname, testExtendsUnless, testIsActive6, testIsActive7, testIsActive8, testGetMSVC, testIsActive2, testGetGcc, testIsActive3, testIsActive4, testExtendsFileSet, testExtendsName, testIsActive5, testExtendsMultithreaded, testExtendsDefineSet]
+
+----------
+ com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.getLibraryPatterns:-->
+
+String[] libnames=[[Ljava.lang.String;@68034211, [Ljava.lang.String;@7ba18f1b, [Ljava.lang.String;@7ae0a9ec]
+LibraryTypeEnum libType=[null]
+
+----------
+ com/github/maven_nar/cpptasks/compiler/AbstractCompiler.createConfiguration:-->
+
+ProcessorDef[] baseConfigs=[[Lcom.github.maven_nar.cpptasks.ProcessorDef;@6d026701, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@53251a66, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@7a419da4, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@1a18644, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@b978d10, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@5e403b4a, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@1d483de4, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@4efc180e, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@7c24b813, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@f99f5e0, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@f736069, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@5e3d57c7, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@57d7f8ca, [Lcom.github.maven_nar.cpptasks.ProcessorDef;@22e357dc]
+VersionInfo versionInfo=[null]
+LinkType linkType=[com.github.maven_nar.cpptasks.compiler.LinkType@6bf08014, com.github.maven_nar.cpptasks.compiler.LinkType@63eef88a, com.github.maven_nar.cpptasks.compiler.LinkType@25fb8912, com.github.maven_nar.cpptasks.compiler.LinkType@c7045b9, com.github.maven_nar.cpptasks.compiler.LinkType@31920ade, com.github.maven_nar.cpptasks.compiler.LinkType@198d6542, com.github.maven_nar.cpptasks.compiler.LinkType@5fbdfdcf, com.github.maven_nar.cpptasks.compiler.LinkType@39d9314d, com.github.maven_nar.cpptasks.compiler.LinkType@702b8b12, com.github.maven_nar.cpptasks.compiler.LinkType@a530d0a, com.github.maven_nar.cpptasks.compiler.LinkType@2053d869, com.github.maven_nar.cpptasks.compiler.LinkType@28f2a10f, com.github.maven_nar.cpptasks.compiler.LinkType@5cdec700, com.github.maven_nar.cpptasks.compiler.LinkType@6d4e5011]
+CCTask task=[com.github.maven_nar.cpptasks.CCTask@47faa49c, com.github.maven_nar.cpptasks.CCTask@6057aebb, com.github.maven_nar.cpptasks.CCTask@30c8681, com.github.maven_nar.cpptasks.CCTask@5c669da8, com.github.maven_nar.cpptasks.CCTask@581ac8a8, com.github.maven_nar.cpptasks.CCTask@2f217633, com.github.maven_nar.cpptasks.CCTask@5d7148e2, com.github.maven_nar.cpptasks.CCTask@27d5a580, com.github.maven_nar.cpptasks.CCTask@727eb8cb, com.github.maven_nar.cpptasks.CCTask@1e683a3e, com.github.maven_nar.cpptasks.CCTask@4416d64f, com.github.maven_nar.cpptasks.CCTask@505fc5a4, com.github.maven_nar.cpptasks.CCTask@6cb6decd, com.github.maven_nar.cpptasks.CCTask@306f16f3]
+ProcessorDef specificConfig=[CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef]
+TargetDef targetPlatform=[null]
+
+----------
+ com/github/maven_nar/cpptasks/intel/IntelLinux64CLinker.IntelLinux64CLinker:-->
+
+String outputSuffix=[, .so]
+bool isLibtool=[false, true]
+String outputPrefix=[, lib]
+IntelLinux64CLinker libtoolLinker=[null, ecc]
+
+----------
+ com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.MetaObjectCompiler:-->
+
+Environment env=[null]
+bool newEnvironment=[false]
+
+----------
+ com/github/maven_nar/cpptasks/trolltech/MetaObjectParser.setQObject:-->
+
+bool value=[true]
+
+----------
+ com/github/maven_nar/cpptasks/compiler/AbstractCompiler.canParse:-->
+
+File sourceFile=[sample.tlb]
+
+----------
+ com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLinker.CompaqVisualFortranLinker:-->
+
+String outputSuffix=[.dll, .exe]
+
+----------
+ com/github/maven_nar/cpptasks/TestTargetInfo.TestTargetInfo:-->
+
+String name=[testConstructorNullConfig, testConstructorNullOutput, testHasSameSource, testMustRebuild, testConstructorNullSource, testGetSource, testGetRebuild]
+
+----------
+ com/github/maven_nar/cpptasks/LinkerDef.getFixed:-->
+
+int index=[1, 2]
+LinkerDef[] defaultProviders=[[Lcom.github.maven_nar.cpptasks.LinkerDef;@4f6f416f, [Lcom.github.maven_nar.cpptasks.LinkerDef;@181e731e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@343570b7, [Lcom.github.maven_nar.cpptasks.LinkerDef;@4da4253, [Lcom.github.maven_nar.cpptasks.LinkerDef;@22555ebf, [Lcom.github.maven_nar.cpptasks.LinkerDef;@41294f8, [Lcom.github.maven_nar.cpptasks.LinkerDef;@56c4278e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5454d35e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@2d778add, [Lcom.github.maven_nar.cpptasks.LinkerDef;@43b9fd5, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5ab9e72c, [Lcom.github.maven_nar.cpptasks.LinkerDef;@6989da5e, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44d52de2, [Lcom.github.maven_nar.cpptasks.LinkerDef;@5552768b, [Lcom.github.maven_nar.cpptasks.LinkerDef;@44a7bfbc, [Lcom.github.maven_nar.cpptasks.LinkerDef;@68e965f5]
+
+----------
+ com/github/maven_nar/NarFileLayout10.getLibDirectory:-->
+
+String type=[shared]
+String aol=[x86_64-MacOSX-g++]
+
+----------
+ com/github/maven_nar/cpptasks/parser/FilenameState.FilenameState:-->
+
+char[] terminators=[[C@1d082e88, [C@56a6d5a6, [C@49049a04, [C@6295d394, [C@306e95ec, [C@543295b0, [C@64d2d351, [C@729d991e, [C@7c711375, [C@419c5f1a, [C@f78a47e, [C@233fe9b6, [C@1a942c18, [C@15761df8, [C@15bb5034, [C@7d3a22a9, [C@6bbe85a8, [C@7ce69770, [C@4b741d6d, [C@1460a8c0, [C@48075da3, [C@15043a2f, [C@1b083826, [C@57cf54e1, [C@18a70f16, [C@ba8d91c, [C@70e9c95d, [C@105fece7, [C@4c1909a3, [C@7364985f, [C@1de5f259, [C@358ee631, [C@52af26ee, [C@783a467b, [C@8458f04, [C@79efed2d, [C@1e9e725a, [C@791f145a, [C@7c137fd5, [C@4a83a74a, [C@7c0c77c7, [C@26d9b808, [C@7c417213, [C@6b4a4e18, [C@12405818, [C@6c3f5566, [C@212bf671, [C@54422e18, [C@15d9bc04, [C@143640d5, [C@2928854b, [C@27c86f2d, [C@272113c4, [C@71a8adcf, [C@53ca01a2, [C@14ec4505, [C@55a147cc, [C@96def03, [C@4b0d79fc, [C@5149d738, [C@79ca92b9, [C@4681c175, [C@4d5650ae, [C@279ad2e3, [C@1e0b4072, [C@75329a49, [C@2ed0fbae, [C@18ce0030, [C@12b0404f]
+AbstractParser parser=[com.github.maven_nar.cpptasks.parser.CParser@309e345f, com.github.maven_nar.cpptasks.parser.CParser@6253c26, com.github.maven_nar.cpptasks.parser.CParser@55634720, com.github.maven_nar.cpptasks.parser.CParser@4686afc2, com.github.maven_nar.cpptasks.parser.CParser@1a6d8329, com.github.maven_nar.cpptasks.parser.FortranParser@353352b6, com.github.maven_nar.cpptasks.parser.CParser@40e6dfe1, com.github.maven_nar.cpptasks.parser.FortranParser@6e0dec4a, com.github.maven_nar.cpptasks.parser.CParser@7db12bb6, com.github.maven_nar.cpptasks.parser.CParser@8909f18, com.github.maven_nar.cpptasks.parser.CParser@4c60d6e9, com.github.maven_nar.cpptasks.parser.CParser@740cae06, com.github.maven_nar.cpptasks.parser.CParser@56de5251, com.github.maven_nar.cpptasks.parser.CParser@25a65b77, com.github.maven_nar.cpptasks.parser.CParser@78b729e6, com.github.maven_nar.cpptasks.parser.CParser@2e3967ea, com.github.maven_nar.cpptasks.parser.CParser@21507a04, com.github.maven_nar.cpptasks.parser.FortranParser@4d49af10, com.github.maven_nar.cpptasks.parser.CParser@e50a6f6, com.github.maven_nar.cpptasks.parser.CParser@1e730495, com.github.maven_nar.cpptasks.parser.CParser@78e94dcf, com.github.maven_nar.cpptasks.parser.CParser@6a396c1e, com.github.maven_nar.cpptasks.parser.FortranParser@51b7e5df, com.github.maven_nar.cpptasks.parser.CParser@53045c6c, com.github.maven_nar.cpptasks.parser.FortranParser@48aaecc3, com.github.maven_nar.cpptasks.parser.FortranParser@6b53e23f, com.github.maven_nar.cpptasks.parser.CParser@741a8937, com.github.maven_nar.cpptasks.parser.FortranParser@231f98ef, com.github.maven_nar.cpptasks.parser.CParser@30b7c004, com.github.maven_nar.cpptasks.parser.FortranParser@7ce026d3, com.github.maven_nar.cpptasks.parser.CParser@70b0b186, com.github.maven_nar.cpptasks.parser.FortranParser@6d2a209c, com.github.maven_nar.cpptasks.parser.CParser@146044d7, com.github.maven_nar.cpptasks.parser.CParser@7d0b7e3c, com.github.maven_nar.cpptasks.parser.CParser@3e11f9e9, com.github.maven_nar.cpptasks.parser.CParser@6107227e, com.github.maven_nar.cpptasks.parser.CParser@5a56cdac, com.github.maven_nar.cpptasks.parser.CParser@563f38c4, com.github.maven_nar.cpptasks.parser.CParser@606e4010]
+
+----------
+ com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.getIncludeDirSwitch:-->
+
+bool isSystem=[false, true]
+String includeDir=[E:\tmp, ..\..\..\..\tmp]
+
+----------
+ com/github/maven_nar/cpptasks/CompilerDef.getActivePaths:-->
+
+Vector paths=[[], [E:\tmp], [E:\tmp], [E:\tmp], [E:\tmp], [E:\Sem_4\Software_Testing_and_Validation\Project3], [E:\Sem_4\Software_Testing_and_Validation\Project3]]
+
+----------
+ com/github/maven_nar/cpptasks/CompilerDef.getMultithreaded:-->
+
+CompilerDef[] defaultProviders=[[Lcom.github.maven_nar.cpptasks.CompilerDef;@6aa61224, [Lcom.github.maven_nar.cpptasks.CompilerDef;@7e7be63f, [Lcom.github.maven_nar.cpptasks.CompilerDef;@49912c99, [Lcom.github.maven_nar.cpptasks.CompilerDef;@6853425f, [Lcom.github.maven_nar.cpptasks.CompilerDef;@5b7a8434, [Lcom.github.maven_nar.cpptasks.CompilerDef;@5117dd67, [Lcom.github.maven_nar.cpptasks.CompilerDef;@bd4dc25, [Lcom.github.maven_nar.cpptasks.CompilerDef;@2c35e847, [Lcom.github.maven_nar.cpptasks.CompilerDef;@4032d386, [Lcom.github.maven_nar.cpptasks.CompilerDef;@78aa1f72, [Lcom.github.maven_nar.cpptasks.CompilerDef;@76c3e77a, [Lcom.github.maven_nar.cpptasks.CompilerDef;@6da21078, [Lcom.github.maven_nar.cpptasks.CompilerDef;@1fb19a0, [Lcom.github.maven_nar.cpptasks.CompilerDef;@14555e0a]
+int index=[1, 2]
+
+----------
+ com/github/maven_nar/cpptasks/types/CommandLineArgument.isActive:-->
+
+Project p=[org.apache.tools.ant.Project@5aa9e4eb, org.apache.tools.ant.Project@5acf93bb, org.apache.tools.ant.Project@4196c360, org.apache.tools.ant.Project@732d0d24, org.apache.tools.ant.Project@3af0a9da, org.apache.tools.ant.Project@671a5887]
+
+----------
+ com/github/maven_nar/cpptasks/sun/ForteCCompiler.ForteCCompiler:-->
+
+String command=[cc]
+
+----------
+ com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.BorlandResourceCompiler:-->
+
+Environment env=[null]
+bool newEnvironment=[false]
+
+----------
+ com/github/maven_nar/NarUtil.getArchitecture:-->
+
+String architecture=[amd64]
+
+----------
+ com/github/maven_nar/cpptasks/compiler/CaptureStreamHandler.setProcessOutputStream:-->
+
+InputStream is=[java.io.BufferedInputStream@ca263c2, java.io.BufferedInputStream@2b4bac49, java.io.BufferedInputStream@117e949d, java.io.BufferedInputStream@7e9a5fbe, java.io.BufferedInputStream@6236eb5f, java.io.BufferedInputStream@73d4cc9e, java.io.BufferedInputStream@31f924f5, java.io.BufferedInputStream@3d0f8e03, java.io.BufferedInputStream@d21a74c, java.io.BufferedInputStream@61ca2dfa, java.io.BufferedInputStream@1dac5ef, java.io.BufferedInputStream@158da8e, java.io.BufferedInputStream@548e6d58, java.io.BufferedInputStream@4cf4d528]
+
+----------
+ com/github/maven_nar/cpptasks/ibm/VisualAgeCCompiler.VisualAgeCCompiler:-->
+
+Environment env=[null]
+String[] sourceExtensions=[[Ljava.lang.String;@15bb6bea]
+bool newEnvironment=[false]
+String[] headerExtensions=[[Ljava.lang.String;@8b96fde]
+String command=[xlC]
+
+----------
+ com/github/maven_nar/cpptasks/gcc/GppLinker.GppLinker:-->
+
+String outputSuffix=[, .dll, .jnilib, .a, .so, .dylib, .bundle]
+GppLinker libtoolLinker=[null, 7.4.0]
+String[] extensions=[[Ljava.lang.String;@26794848]
+bool isLibtool=[false, true]
+String outputPrefix=[, lib]
+String[] ignoredExtensions=[[Ljava.lang.String;@302552ec]
+String command=[clang, g++]
+
+----------
+ com/github/maven_nar/cpptasks/gcc/GccLinker.addImpliedArgs:-->
+
+Vector args=[[-bundle], [-dynamiclib], [-shared], [-shared], [], [/base]]
+bool debug=[false, true]
+LinkType linkType=[com.github.maven_nar.cpptasks.compiler.LinkType@60b4beb4, com.github.maven_nar.cpptasks.compiler.LinkType@1bab8268, com.github.maven_nar.cpptasks.compiler.LinkType@206a70ef, com.github.maven_nar.cpptasks.compiler.LinkType@303cf2ba, com.github.maven_nar.cpptasks.compiler.LinkType@409c54f, com.github.maven_nar.cpptasks.compiler.LinkType@59402b8f, com.github.maven_nar.cpptasks.compiler.LinkType@1acaf3d, com.github.maven_nar.cpptasks.compiler.LinkType@17baae6e, com.github.maven_nar.cpptasks.compiler.LinkType@5f71c76a, com.github.maven_nar.cpptasks.compiler.LinkType@524d6d96, com.github.maven_nar.cpptasks.compiler.LinkType@609db546, com.github.maven_nar.cpptasks.compiler.LinkType@6c61a903, com.github.maven_nar.cpptasks.compiler.LinkType@82ea68c, com.github.maven_nar.cpptasks.compiler.LinkType@63611043, com.github.maven_nar.cpptasks.compiler.LinkType@42530531, com.github.maven_nar.cpptasks.compiler.LinkType@8317c52, com.github.maven_nar.cpptasks.compiler.LinkType@701fc37a, com.github.maven_nar.cpptasks.compiler.LinkType@6be968ce, com.github.maven_nar.cpptasks.compiler.LinkType@50caa560, com.github.maven_nar.cpptasks.compiler.LinkType@6483f5ae, com.github.maven_nar.cpptasks.compiler.LinkType@2f4948e4, com.github.maven_nar.cpptasks.compiler.LinkType@1649b0e6, com.github.maven_nar.cpptasks.compiler.LinkType@4ebff610, com.github.maven_nar.cpptasks.compiler.LinkType@36d585c, com.github.maven_nar.cpptasks.compiler.LinkType@70ed52de, com.github.maven_nar.cpptasks.compiler.LinkType@404bbcbd]
+CCTask task=[null, com.github.maven_nar.cpptasks.CCTask@1115ec15, com.github.maven_nar.cpptasks.CCTask@78ffe6dc, com.github.maven_nar.cpptasks.CCTask@c730b35, com.github.maven_nar.cpptasks.CCTask@5965be2d, com.github.maven_nar.cpptasks.CCTask@41005828, com.github.maven_nar.cpptasks.CCTask@568ff82, com.github.maven_nar.cpptasks.CCTask@69fb6037, com.github.maven_nar.cpptasks.CCTask@4241e0f4, com.github.maven_nar.cpptasks.CCTask@7daa0fbd, com.github.maven_nar.cpptasks.CCTask@6a78afa0, com.github.maven_nar.cpptasks.CCTask@6a6afff2, com.github.maven_nar.cpptasks.CCTask@5b67bb7e, com.github.maven_nar.cpptasks.CCTask@45a37759, com.github.maven_nar.cpptasks.CCTask@2525ff7e]
+
+----------
+ com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.GccCCompiler:-->
+
+GccCCompiler libtoolCompiler=[null, libtool sparc-sun-solaris2-g++ noversion nomachine, libtool sparc-sun-solaris2-c++ noversion nomachine, libtool sparc-sun-solaris2-gcc noversion nomachine, libtool sparc-sun-solaris2-g77 noversion nomachine]
+Environment env=[null]
+String[] sourceExtensions=[[Ljava.lang.String;@61df66b6]
+bool isLibtool=[false, true]
+bool newEnvironment=[false]
+String[] headerExtensions=[[Ljava.lang.String;@50eac852]
+String command=[sparc-sun-solaris2-c++, sparc-sun-solaris2-g77, sparc-sun-solaris2-g++, sparc-sun-solaris2-gcc]
+
+----------
+ com/github/maven_nar/cpptasks/TestProcessorDef.getConfiguration:-->
+
+ProcessorDef extendedProcessor=[LinkerDef, LinkerDef, LinkerDef, LinkerDef, CompilerDef, CompilerDef, CompilerDef, LinkerDef, LinkerDef, CompilerDef, CompilerDef, LinkerDef, LinkerDef, CompilerDef, CompilerDef, LinkerDef, LinkerDef, LinkerDef, CompilerDef, LinkerDef, LinkerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, CompilerDef, LinkerDef, LinkerDef, CompilerDef, LinkerDef]
+
+----------
+ com/github/maven_nar/cpptasks/parser/PostE.PostE:-->
+
+AbstractParserState quote=[com.github.maven_nar.cpptasks.parser.FilenameState@7a35b0f5, com.github.maven_nar.cpptasks.parser.FilenameState@6b67034, com.github.maven_nar.cpptasks.parser.FilenameState@3ee0fea4, com.github.maven_nar.cpptasks.parser.FilenameState@5276e6b0, com.github.maven_nar.cpptasks.parser.FilenameState@6b19b79, com.github.maven_nar.cpptasks.parser.FilenameState@45b9a632, com.github.maven_nar.cpptasks.parser.FilenameState@37d4349f, com.github.maven_nar.cpptasks.parser.FilenameState@771a660, com.github.maven_nar.cpptasks.parser.FilenameState@402e37bc, com.github.maven_nar.cpptasks.parser.FilenameState@957e06, com.github.maven_nar.cpptasks.parser.FilenameState@3e27ba32, com.github.maven_nar.cpptasks.parser.FilenameState@29176cc1, com.github.maven_nar.cpptasks.parser.FilenameState@327b636c, com.github.maven_nar.cpptasks.parser.FilenameState@4f2b503c, com.github.maven_nar.cpptasks.parser.FilenameState@4387b79e, com.github.maven_nar.cpptasks.parser.FilenameState@d9345cd, com.github.maven_nar.cpptasks.parser.FilenameState@709ba3fb, com.github.maven_nar.cpptasks.parser.FilenameState@738dc9b, com.github.maven_nar.cpptasks.parser.FilenameState@516be40f, com.github.maven_nar.cpptasks.parser.FilenameState@657c8ad9, com.github.maven_nar.cpptasks.parser.FilenameState@82de64a, com.github.maven_nar.cpptasks.parser.FilenameState@3c87521, com.github.maven_nar.cpptasks.parser.FilenameState@8f2ef19, com.github.maven_nar.cpptasks.parser.FilenameState@3c72f59f, com.github.maven_nar.cpptasks.parser.FilenameState@4b45a2f5, com.github.maven_nar.cpptasks.parser.FilenameState@482cd91f, com.github.maven_nar.cpptasks.parser.FilenameState@4be29ed9, com.github.maven_nar.cpptasks.parser.FilenameState@4b29d1d2, com.github.maven_nar.cpptasks.parser.FilenameState@7526515b, com.github.maven_nar.cpptasks.parser.FilenameState@6fdbe764]
+CParser parser=[com.github.maven_nar.cpptasks.parser.CParser@309e345f, com.github.maven_nar.cpptasks.parser.CParser@6253c26, com.github.maven_nar.cpptasks.parser.CParser@55634720, com.github.maven_nar.cpptasks.parser.CParser@4686afc2, com.github.maven_nar.cpptasks.parser.CParser@1a6d8329, com.github.maven_nar.cpptasks.parser.CParser@40e6dfe1, com.github.maven_nar.cpptasks.parser.CParser@7db12bb6, com.github.maven_nar.cpptasks.parser.CParser@8909f18, com.github.maven_nar.cpptasks.parser.CParser@4c60d6e9, com.github.maven_nar.cpptasks.parser.CParser@740cae06, com.github.maven_nar.cpptasks.parser.CParser@56de5251, com.github.maven_nar.cpptasks.parser.CParser@25a65b77, com.github.maven_nar.cpptasks.parser.CParser@78b729e6, com.github.maven_nar.cpptasks.parser.CParser@2e3967ea, com.github.maven_nar.cpptasks.parser.CParser@21507a04, com.github.maven_nar.cpptasks.parser.CParser@e50a6f6, com.github.maven_nar.cpptasks.parser.CParser@1e730495, com.github.maven_nar.cpptasks.parser.CParser@78e94dcf, com.github.maven_nar.cpptasks.parser.CParser@6a396c1e, com.github.maven_nar.cpptasks.parser.CParser@53045c6c, com.github.maven_nar.cpptasks.parser.CParser@741a8937, com.github.maven_nar.cpptasks.parser.CParser@30b7c004, com.github.maven_nar.cpptasks.parser.CParser@70b0b186, com.github.maven_nar.cpptasks.parser.CParser@146044d7, com.github.maven_nar.cpptasks.parser.CParser@7d0b7e3c, com.github.maven_nar.cpptasks.parser.CParser@3e11f9e9, com.github.maven_nar.cpptasks.parser.CParser@6107227e, com.github.maven_nar.cpptasks.parser.CParser@5a56cdac, com.github.maven_nar.cpptasks.parser.CParser@563f38c4, com.github.maven_nar.cpptasks.parser.CParser@606e4010]
+AbstractParserState bracket=[com.github.maven_nar.cpptasks.parser.FilenameState@2eae8e6e, com.github.maven_nar.cpptasks.parser.FilenameState@644baf4a, com.github.maven_nar.cpptasks.parser.FilenameState@14a2f921, com.github.maven_nar.cpptasks.parser.FilenameState@a38c7fe, com.github.maven_nar.cpptasks.parser.FilenameState@27462a88, com.github.maven_nar.cpptasks.parser.FilenameState@5d20e46, com.github.maven_nar.cpptasks.parser.FilenameState@10b48321, com.github.maven_nar.cpptasks.parser.FilenameState@4f638935, com.github.maven_nar.cpptasks.parser.FilenameState@6fd83fc1, com.github.maven_nar.cpptasks.parser.FilenameState@73e9cf30, com.github.maven_nar.cpptasks.parser.FilenameState@31fa1761, com.github.maven_nar.cpptasks.parser.FilenameState@38cee291, com.github.maven_nar.cpptasks.parser.FilenameState@6ab7a896, com.github.maven_nar.cpptasks.parser.FilenameState@197d671, com.github.maven_nar.cpptasks.parser.FilenameState@60704c, com.github.maven_nar.cpptasks.parser.FilenameState@4445629, com.github.maven_nar.cpptasks.parser.FilenameState@117159c0, com.github.maven_nar.cpptasks.parser.FilenameState@3ec300f1, com.github.maven_nar.cpptasks.parser.FilenameState@475e586c, com.github.maven_nar.cpptasks.parser.FilenameState@3a7442c7, com.github.maven_nar.cpptasks.parser.FilenameState@71ba6d4e, com.github.maven_nar.cpptasks.parser.FilenameState@68c9133c, com.github.maven_nar.cpptasks.parser.FilenameState@769e7ee8, com.github.maven_nar.cpptasks.parser.FilenameState@1349883, com.github.maven_nar.cpptasks.parser.FilenameState@473b46c3, com.github.maven_nar.cpptasks.parser.FilenameState@358c99f5, com.github.maven_nar.cpptasks.parser.FilenameState@ec756bd, com.github.maven_nar.cpptasks.parser.FilenameState@428640fa, com.github.maven_nar.cpptasks.parser.FilenameState@5b03b9fe, com.github.maven_nar.cpptasks.parser.FilenameState@27ae2fd0]
+
+----------
+ com/github/maven_nar/cpptasks/ProcessorDef.createConfiguration:-->
+
+VersionInfo versionInfo=[null]
+LinkType linkType=[com.github.maven_nar.cpptasks.compiler.LinkType@60b4beb4, com.github.maven_nar.cpptasks.compiler.LinkType@206a70ef, com.github.maven_nar.cpptasks.compiler.LinkType@409c54f, com.github.maven_nar.cpptasks.compiler.LinkType@c7045b9, com.github.maven_nar.cpptasks.compiler.LinkType@31920ade, com.github.maven_nar.cpptasks.compil
