@@ -1,0 +1,810 @@
+org/apache/commons/dbutils/BeanProcessor.newInstance:-->
+
+Class c = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/OutParameter.setValue:-->
+
+
+----------
+ org/apache/commons/dbutils/OutParameter.setValue:-->
+
+int 1 <= index <= 3		---> Range Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.rethrow:-->
+
+String sql = select * from blah where ?		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/BooleanColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/ScalarHandler.ScalarHandler:-->
+
+String columnName = null		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils.rollback:-->
+
+
+----------
+ org/apache/commons/dbutils/ProxyFactory.createResultSetMetaData:-->
+
+InvocationHandler handler = org.apache.commons.dbutils.MockResultSetMetaData@10cd6753		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callExecuteWithResultSetWithException:-->
+
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.prepareStatement:-->
+
+int returnedKeys = 1		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.prepareStatement:-->
+
+String sql = update blah set unit		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/BeanProcessor.populateBean:-->
+
+ResultSet rs = rs		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/BeanProcessor.populateBean:-->
+
+ResultSet rs = rs		---> Constant Invariant
+PropertyDescriptor[] props = [Ljava.beans.PropertyDescriptor;@fab35b1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callExecuteWithException:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callGoodExecuteWithResultSet:-->
+
+Connection intParam = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/FloatColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$10.AsyncQueryRunner$10:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/LongColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils$DriverProxy.DbUtils$DriverProxy:-->
+
+
+----------
+ org/apache/commons/dbutils/BeanProcessor.BeanProcessor:-->
+
+Map columnToPropertyOverrides = {}		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.fillStatementWithBean:-->
+
+Object bean = org.apache.commons.dbutils.QueryRunnerTest$MyBean@4116f66a		---> Constant Invariant
+PreparedStatement stmt = prepStmt		---> Constant Invariant
+PropertyDescriptor[] propertyNames = [Ljava.beans.PropertyDescriptor;@91f565d		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.fillStatementWithBean:-->
+
+PreparedStatement stmt = prepStmt		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/IntegerColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/StringColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$2.AsyncQueryRunner$2:-->
+
+
+----------
+ org/apache/commons/dbutils/BeanProcessor.propertyDescriptors:-->
+
+Class c = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$6.AsyncQueryRunner$6:-->
+
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$7.AsyncQueryRunner$7:-->
+
+String this = update blah set unit		---> Constant Invariant
+Connection this = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$3.AsyncQueryRunner$3:-->
+
+String this = select * from blah where ?		---> Constant Invariant
+Connection this = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/TimestampColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/SQLXMLColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.QueryRunner:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.QueryRunner:-->
+
+DataSource ds = dataSource		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.QueryRunner:-->
+
+bool ds = true		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.QueryRunner:-->
+
+StatementConfiguration ds = org.apache.commons.dbutils.StatementConfiguration@6e31d989		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/OutParameter.OutParameter:-->
+
+int sqlType = 4		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/OutParameter.OutParameter:-->
+
+int 4 <= sqlType <= 12		---> Range Invariant
+
+----------
+ org/apache/commons/dbutils/StatementConfiguration$Builder.fetchDirection:-->
+
+Integer fetchDirection = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.AbstractQueryRunner:-->
+
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.AbstractQueryRunner:-->
+
+DataSource stmtConfig = dataSource		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.AbstractQueryRunner:-->
+
+bool stmtConfig = true		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.AbstractQueryRunner:-->
+
+StatementConfiguration stmtConfig = org.apache.commons.dbutils.StatementConfiguration@6e31d989		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/FloatColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callGoodQuery:-->
+
+Connection sql = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/BasicRowProcessor.BasicRowProcessor:-->
+
+BeanProcessor convert = org.apache.commons.dbutils.BeanProcessor@4f4c789f		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/ScalarHandler.handle:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/DoubleColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/BooleanColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.update:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.update:-->
+
+String closeConn = update blah set unit		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.update:-->
+
+String conn = select * from blah where ?		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.update:-->
+
+String closeConn = update blah set ?		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.update:-->
+
+String sql = update blah set unit		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.update:-->
+
+Object closeConn = test		---> Constant Invariant
+String conn = update blah set unit		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.update:-->
+
+String closeConn = update blah set unit		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+Object sql = test		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$9.AsyncQueryRunner$9:-->
+
+String this = update blah set ?		---> Constant Invariant
+Connection this = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.closeQuietly:-->
+
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.closeQuietly:-->
+
+
+----------
+ org/apache/commons/dbutils/StatementConfiguration$Builder.maxFieldSize:-->
+
+Integer maxFieldSize = 3		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/LongColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunnerTest.callGoodQuery:-->
+
+Connection sql = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callUpdateWithException:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils.rollbackAndCloseQuietly:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callBatchWithException:-->
+
+String sql = select * from blah where ?		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunnerTest.callBatchWithException:-->
+
+String sql = select * from blah where ?		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$16.AsyncQueryRunner$16:-->
+
+AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@3f9f71ff		---> Constant Invariant
+Object[] this = [Ljava.lang.Object;@ad3324b		---> Constant Invariant
+String this = 4		---> Constant Invariant
+ResultSetHandler this = org.apache.commons.dbutils.handlers.ArrayHandler@fabb651		---> Constant Invariant
+Connection this = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils$DriverProxy.connect:-->
+
+String url = testUrl		---> Constant Invariant
+Properties info = {tes		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/GenerousBeanProcessor.mapColumnsToProperties:-->
+
+ResultSetMetaData rsmd = metaData		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunnerTest.callQueryWithException:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callQueryWithException:-->
+
+
+----------
+ org/apache/commons/dbutils/MockResultSetMetaData.MockResultSetMetaData:-->
+
+String[] columnNames = [Ljava.lang.String;@3901f6af		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils.commitAndClose:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/BeanMapHandler.createRow:-->
+
+ResultSet rs = rs		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callGoodUpdate:-->
+
+Connection sql = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/BeanMapHandler.createKey:-->
+
+ResultSet rs = rs		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.prepareCall:-->
+
+String sql = {		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/StatementConfiguration$Builder.queryTimeout:-->
+
+Integer queryTimeout = 5		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.fillStatement:-->
+
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$8.AsyncQueryRunner$8:-->
+
+String this = update blah set unit		---> Constant Invariant
+Connection this = conn		---> Constant Invariant
+Object this = test		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils.closeQuietly:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils.closeQuietly:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils.closeQuietly:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils.closeQuietly:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+
+int convert = 2		---> Constant Invariant
+Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+
+String convert = id		---> Constant Invariant
+Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+
+Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+
+RowProcessor convert = rp		---> Constant Invariant
+Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/BeanMapHandler.BeanMapHandler:-->
+
+Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+int 1 <= columnIndex <= 2		---> Range Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$15.AsyncQueryRunner$15:-->
+
+AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@3f9f71ff		---> Constant Invariant
+String this = 3		---> Constant Invariant
+ResultSetHandler this = org.apache.commons.dbutils.handlers.ArrayHandler@fabb651		---> Constant Invariant
+Connection this = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.batch:-->
+
+String closeConn = select * from blah where ?		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.batch:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.batch:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils.loadDriver:-->
+
+String classLoader = 		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils.loadDriver:-->
+
+String driverClassName = 		---> Constant Invariant
+ClassLoader classLoader = jdk.internal.loader.ClassLoaders$AppClassLoader@5451c3a8		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$1.AsyncQueryRunner$1:-->
+
+AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@5ff90645		---> Constant Invariant
+String this = select * from blah where ?		---> Constant Invariant
+Connection this = conn		---> Constant Invariant
+Object[][] this = [[Ljava.lang.String;@373f7450		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils$DriverProxy.acceptsURL:-->
+
+String url = testUrl		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/StringColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$5.AsyncQueryRunner$5:-->
+
+String this = select * from blah where ?		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/BasicRowProcessor.toBean:-->
+
+ResultSet rs = rs		---> Constant Invariant
+Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/TimestampColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/BeanProcessor.mapColumnsToProperties:-->
+
+ResultSetMetaData rsmd = rsmd		---> Constant Invariant
+PropertyDescriptor[] props = [Ljava.beans.PropertyDescriptor;@fab35b1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$4.AsyncQueryRunner$4:-->
+
+String this = select * from blah		---> Constant Invariant
+Connection this = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest$MyBean.QueryRunnerTest$MyBean:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/DoubleColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/OutParameter.register:-->
+
+int 1 <= index <= 3		---> Range Invariant
+
+----------
+ org/apache/commons/dbutils/StatementConfiguration.StatementConfiguration:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.insert:-->
+
+ResultSetHandler closeConn = org.apache.commons.dbutils.handlers.ScalarHandler@3850e90c		---> Constant Invariant
+Object[] sql = [Ljava.lang.Object;@3d9f5016		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.insert:-->
+
+ResultSetHandler rsh = org.apache.commons.dbutils.handlers.ScalarHandler@3850e90c		---> Constant Invariant
+bool closeConn = true		---> Constant Invariant
+Object[] params = [Ljava.lang.Object;@3d9f5016		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/ShortColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$14.AsyncQueryRunner$14:-->
+
+AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@3f9f71ff		---> Constant Invariant
+Object[] this = [Ljava.lang.Object;@764cba		---> Constant Invariant
+String this = 2		---> Constant Invariant
+ResultSetHandler this = org.apache.commons.dbutils.handlers.ArrayHandler@fabb651		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunnerTest.callGoodUpdate:-->
+
+Connection sql = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/SQLXMLColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/ShortColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.close:-->
+
+ResultSet stmt = results		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.close:-->
+
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.close:-->
+
+Connection stmt = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.insertBatch:-->
+
+Object[][] sql = [[Ljava.lang.Object;@535b1ae6		---> Constant Invariant
+ResultSetHandler closeConn = org.apache.commons.dbutils.QueryRunnerTest$1@56cc9f29		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.insertBatch:-->
+
+ResultSetHandler rsh = org.apache.commons.dbutils.QueryRunnerTest$1@56cc9f29		---> Constant Invariant
+bool closeConn = true		---> Constant Invariant
+Object[][] params = [[Ljava.lang.Object;@535b1ae6		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/StatementConfiguration$Builder.fetchSize:-->
+
+Integer fetchSize = 2		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/StatementConfiguration$Builder.maxRows:-->
+
+Integer maxRows = 4		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/columns/IntegerColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$12.AsyncQueryRunner$12:-->
+
+String this = select * from blah where ?		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils$DriverProxy.getPropertyInfo:-->
+
+String url = testUrl		---> Constant Invariant
+Properties info = {tes		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.configureStatement:-->
+
+Statement stmt = prepStmt		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.execute:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.execute:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.execute:-->
+
+String closeConn = {		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.execute:-->
+
+String closeConn = {		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.execute:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.execute:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/properties/StringEnumPropertyHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/MockResultSetMetaData.create:-->
+
+String[] columnNames = [Ljava.lang.String;@3901f6af		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$13.AsyncQueryRunner$13:-->
+
+AsyncQueryRunner this = org.apache.commons.dbutils.AsyncQueryRunner@3f9f71ff		---> Constant Invariant
+String this = 1		---> Constant Invariant
+ResultSetHandler this = org.apache.commons.dbutils.handlers.ArrayHandler@fabb651		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils.commitAndCloseQuietly:-->
+
+
+----------
+ org/apache/commons/dbutils/BeanProcessor.toBean:-->
+
+ResultSet rs = rs		---> Constant Invariant
+Class type = class org.apache.commons.dbutils.TestBean		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/ProxyFactory.newProxyInstance:-->
+
+InvocationHandler handler = org.apache.commons.dbutils.MockResultSetMetaData@10cd6753		---> Constant Invariant
+Class type = interface java.sql.ResultSetMetaData		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunnerTest.callUpdateWithException:-->
+
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunner$11.AsyncQueryRunner$11:-->
+
+String this = update blah set unit		---> Constant Invariant
+Object this = test		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/properties/DatePropertyHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils.rollbackAndClose:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/ByteColumnHandler.match:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.query:-->
+
+String closeConn = select * from blah		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.query:-->
+
+String conn = select * from blah where ?		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.query:-->
+
+String closeConn = select * from blah where ?		---> Constant Invariant
+Connection conn = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.query:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunner.query:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/ByteColumnHandler.apply:-->
+
+ResultSet rs = rs		---> Constant Invariant
+int columnIndex = 1		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AbstractQueryRunner.wrap:-->
+
+ResultSet rs = results		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/handlers/properties/DatePropertyHandler.apply:-->
+
+Object value = Fri Apr 24 14:25:36 CDT 2020		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callGoodBatch:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callGoodBatch:-->
+
+Connection params = conn		---> Constant Invariant
+Object[][] this = [[Ljava.lang.String;@7bc58891		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/QueryRunner.retrieveOutParameters:-->
+
+CallableStatement stmt = call		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/DbUtils.close:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils.close:-->
+
+
+----------
+ org/apache/commons/dbutils/DbUtils.close:-->
+
+
+----------
+ org/apache/commons/dbutils/handlers/columns/ColumnHandlerTestBase.ColumnHandlerTestBase:-->
+
+
+----------
+ org/apache/commons/dbutils/QueryRunnerTest.callGoodExecute:-->
+
+Connection result = conn		---> Constant Invariant
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunnerTest.callGoodBatch:-->
+
+
+----------
+ org/apache/commons/dbutils/AsyncQueryRunnerTest.callGoodBatch:-->
+
+Connection params = conn		---> Constant Invariant
+Object[][] future = [[Ljava.lang.String;@373f7450		---> Constant Invariant
+
+----------
+ 
