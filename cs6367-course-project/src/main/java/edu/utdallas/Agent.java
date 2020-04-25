@@ -15,19 +15,20 @@ public class Agent {
             public byte[] transform(ClassLoader classLoader, String className, Class<?> aClass, ProtectionDomain protectionDomain, byte[] bytes) throws IllegalClassFormatException {
                 //System.out.println("transforming " + className);
                 // ASM Code
-                if (className.startsWith("org/java_websocket") ||
-                        className.startsWith("org/jfree/chart") ||
+                if (className.startsWith("org/apache/commons/dbutils") ||
+                        className.startsWith("org/joda/time") ||
                         className.startsWith("com/github/maven_nar") ||
-                        className.startsWith("nodebox") ||
-                        className.startsWith("spoon") ||
-                        className.startsWith("org/mybatis") ||
-                        className.startsWith("org/perf4j") ||
-                        className.startsWith("com/skype") ||
-                        className.startsWith("org/springframework/data/jpa/convert") ||
-                        className.startsWith("net/sourceforge/pebble")
+                        className.startsWith("org/neo4j/batchimport") ||
+                        className.startsWith("com/github/vbauer/caesar") ||
+                        className.startsWith("com/vaadin/demo/dashboard") ||
+                        className.startsWith("au/com/ds/ef") ||
+                        className.startsWith("de/apaxo/bedcon") ||
+                        className.startsWith("com/tagtraum/perf/gcviewer") ||
+                        className.startsWith("org/apache/commons/lang3")
                         
-                        || className.startsWith("org/springframework") ||
-                        className.startsWith("org/zeroturnaround/exec")
+                        || className.startsWith("com/lastcalc") ||
+                        className.startsWith("org/giltene") ||
+                        className.startsWith("org/java_websocket")
                 ){
                     //System.out.println(className);
                     ClassReader cr = new ClassReader(bytes);
